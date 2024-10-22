@@ -1,0 +1,78 @@
+question,choices,correct,type,accuracy
+yellow,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_10.jpg'],0,1
+purple,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_2.jpg'],0,0
+blue,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_4.jpg'],0,0
+green,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_6.jpg'],0,0
+red,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_8.jpg'],0,0
+red,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_2.jpg'],0,1
+green,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_10.jpg'],0,0
+blue,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_6.jpg'],0,0
+yellow,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_8.jpg'],0,0
+purple,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_6.jpg'],0,0
+yellow,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_2.jpg'],0,1
+blue,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_10.jpg'],0,0
+green,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_8.jpg'],0,0
+green,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_7.jpg'],0,0
+purple,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_5.jpg'],0,0
+yellow,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_1.jpg'],0,0
+blue,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_9.jpg'],0,0
+pink,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_3.jpg'],0,0
+red,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_1.jpg'],0,0
+blue,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_5.jpg'],0,0
+yellow,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_7.jpg'],0,0
+green,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_9.jpg'],0,0
+blue,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_10.jpg'],0,0
+yellow,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_2.jpg'],0,1
+purple,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_6.jpg'],0,0
+red,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_4.jpg'],0,0
+green,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_8.jpg'],0,0
+red,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_10.jpg'],0,0
+yellow,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_6.jpg'],0,0
+green,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_4.jpg'],0,1
+blue,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_2.jpg'],0,0
+green,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_10.jpg'],0,1
+blue,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_6.jpg'],0,0
+purple,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_4.jpg'],0,0
+pink,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_2.jpg'],0,0
+yellow,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_8.jpg'],0,0
+yellow,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_8.jpg'],0,0
+green,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_10.jpg'],0,0
+blue,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_6.jpg'],0,0
+red,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_2.jpg'],0,0
+green,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_9.jpg'],0,0
+blue,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_5.jpg'],0,1
+yellow,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_7.jpg'],0,0
+red,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_1.jpg'],0,0
+yellow,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_7.jpg'],0,0
+blue,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_5.jpg'],0,0
+pink,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_1.jpg'],0,1
+purple,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_3.jpg'],0,0
+green,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_9.jpg'],0,0
+blue,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_3.jpg'],0,1
+purple,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_1.jpg'],0,0
+green,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_5.jpg'],0,0
+red,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_7.jpg'],0,0
+yellow,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_9.jpg'],0,0
+blue,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_1.jpg'],0,0
+green,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_3.jpg'],0,1
+purple,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_7.jpg'],0,0
+yellow,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_5.jpg'],0,0
+pink,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_9.jpg'],0,0
+yellow,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_1.jpg'],0,0
+red,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_3.jpg'],0,0
+green,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_7.jpg'],0,1
+purple,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_5.jpg'],0,0
+blue,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_9.jpg'],0,0
+blue,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_2.jpg'],0,1
+yellow,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_6.jpg'],0,0
+green,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_4.jpg'],0,1
+purple,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_8.jpg'],0,0
+pink,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_10.jpg'],0,0
+blue,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_6.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_8.jpg'],0,0
+green,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_6.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_4.jpg'],0,0
+orange,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_6.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_6.jpg'],0,1
+pink,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_6.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_10.jpg'],0,0
+pink,"['clamp_rot_s_9.jpg', 'clamp_rot_s_5.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_9.jpg'],0,0
+orange,"['clamp_rot_s_9.jpg', 'clamp_rot_s_5.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_5.jpg'],0,1
+blue,"['clamp_rot_s_9.jpg', 'clamp_rot_s_5.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_7.jpg'],0,0
+green,"['clamp_rot_s_9.jpg', 'clamp_rot_s_5.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_3.jpg'],0,0
