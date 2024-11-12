@@ -1,0 +1,738 @@
+question,choices,correct,type,model_response,model_response_color,correct_color,accuracy_baseline,accuracy
+yellow,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_10.jpg'],0,2,blue,yellow,0.2,0
+purple,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_2.jpg'],0,2,blue,purple,0.2,0
+blue,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_4.jpg'],0,2,blue,blue,0.2,1
+green,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_6.jpg'],0,4,red,green,0.2,0
+red,"['tool_box_rot_s_10.jpg', 'tool_box_rot_s_2.jpg', 'tool_box_rot_s_4.jpg', 'tool_box_rot_s_6.jpg', 'tool_box_rot_s_8.jpg']",['tool_box_rot_s_8.jpg'],0,2,blue,red,0.2,0
+green,"['valve_rot_s_6.jpg', 'valve_rot_s_4.jpg', 'valve_rot_s_2.jpg']",['valve_rot_s_6.jpg'],0,0,green,green,0.3333333333333333,1
+red,"['extension_cord_rot_s_5.jpg', 'extension_cord_rot_s_7.jpg', 'extension_cord_rot_s_3.jpg', 'extension_cord_rot_s_1.jpg', 'extension_cord_rot_s_9.jpg']",['extension_cord_rot_s_7.jpg'],0,0,green,red,0.2,0
+yellow,"['container_open_rot_s_8.jpg', 'container_open_rot_s_10.jpg', 'container_open_rot_s_2.jpg', 'container_open_rot_s_6.jpg', 'container_open_rot_s_4.jpg']",['container_open_rot_s_8.jpg'],0,2,pink,yellow,0.2,0
+green,"['container_open_rot_s_8.jpg', 'container_open_rot_s_10.jpg', 'container_open_rot_s_2.jpg', 'container_open_rot_s_6.jpg', 'container_open_rot_s_4.jpg']",['container_open_rot_s_10.jpg'],0,2,pink,green,0.2,0
+blue,"['container_open_rot_s_8.jpg', 'container_open_rot_s_10.jpg', 'container_open_rot_s_2.jpg', 'container_open_rot_s_6.jpg', 'container_open_rot_s_4.jpg']",['container_open_rot_s_6.jpg'],0,1,green,blue,0.2,0
+red,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_2.jpg'],0,0,red,red,0.25,1
+green,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_10.jpg'],0,0,red,green,0.25,0
+blue,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_6.jpg'],0,1,green,blue,0.25,0
+yellow,"['handbag_rot_s_2.jpg', 'handbag_rot_s_10.jpg', 'handbag_rot_s_6.jpg', 'handbag_rot_s_8.jpg']",['handbag_rot_s_8.jpg'],0,2,blue,yellow,0.25,0
+yellow,"['takeout_container_rot_s_7.jpg', 'takeout_container_rot_s_5.jpg', 'takeout_container_rot_s_1.jpg', 'takeout_container_rot_s_3.jpg', 'takeout_container_rot_s_9.jpg']",['takeout_container_rot_s_7.jpg'],0,2,pink,yellow,0.2,0
+pink,"['takeout_container_rot_s_7.jpg', 'takeout_container_rot_s_5.jpg', 'takeout_container_rot_s_1.jpg', 'takeout_container_rot_s_3.jpg', 'takeout_container_rot_s_9.jpg']",['takeout_container_rot_s_1.jpg'],0,4,green,pink,0.2,0
+purple,"['takeout_container_rot_s_7.jpg', 'takeout_container_rot_s_5.jpg', 'takeout_container_rot_s_1.jpg', 'takeout_container_rot_s_3.jpg', 'takeout_container_rot_s_9.jpg']",['takeout_container_rot_s_3.jpg'],0,1,green,purple,0.2,0
+purple,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_4.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_6.jpg'],0,2,yellow,purple,0.2,0
+brown,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_4.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_4.jpg'],0,4,green,brown,0.2,0
+yellow,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_4.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_2.jpg'],0,2,yellow,yellow,0.2,1
+blue,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_4.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_10.jpg'],0,2,yellow,blue,0.2,0
+green,"['cardboard_rot_s_6.jpg', 'cardboard_rot_s_4.jpg', 'cardboard_rot_s_2.jpg', 'cardboard_rot_s_10.jpg', 'cardboard_rot_s_8.jpg']",['cardboard_rot_s_8.jpg'],0,2,yellow,green,0.2,0
+purple,"['theater_seats_rot_s_3.jpg', 'theater_seats_rot_s_1.jpg', 'theater_seats_rot_s_5.jpg', 'theater_seats_rot_s_9.jpg']",['theater_seats_rot_s_3.jpg'],0,1,pink,purple,0.25,0
+pink,"['theater_seats_rot_s_3.jpg', 'theater_seats_rot_s_1.jpg', 'theater_seats_rot_s_5.jpg', 'theater_seats_rot_s_9.jpg']",['theater_seats_rot_s_1.jpg'],0,3,yellow,pink,0.25,0
+green,"['theater_seats_rot_s_3.jpg', 'theater_seats_rot_s_1.jpg', 'theater_seats_rot_s_5.jpg', 'theater_seats_rot_s_9.jpg']",['theater_seats_rot_s_5.jpg'],0,3,yellow,green,0.25,0
+yellow,"['theater_seats_rot_s_3.jpg', 'theater_seats_rot_s_1.jpg', 'theater_seats_rot_s_5.jpg', 'theater_seats_rot_s_9.jpg']",['theater_seats_rot_s_9.jpg'],0,0,purple,yellow,0.25,0
+pink,"['gloves_rot_s_8.jpg', 'gloves_rot_s_10.jpg', 'gloves_rot_s_2.jpg', 'gloves_rot_s_6.jpg', 'gloves_rot_s_4.jpg']",['gloves_rot_s_8.jpg'],0,3,green,pink,0.2,0
+brown,"['gloves_rot_s_8.jpg', 'gloves_rot_s_10.jpg', 'gloves_rot_s_2.jpg', 'gloves_rot_s_6.jpg', 'gloves_rot_s_4.jpg']",['gloves_rot_s_10.jpg'],0,0,pink,brown,0.2,0
+green,"['gloves_rot_s_8.jpg', 'gloves_rot_s_10.jpg', 'gloves_rot_s_2.jpg', 'gloves_rot_s_6.jpg', 'gloves_rot_s_4.jpg']",['gloves_rot_s_6.jpg'],0,3,green,green,0.2,1
+red,"['sponge_rot_s_6.jpg', 'sponge_rot_s_4.jpg', 'sponge_rot_s_2.jpg', 'sponge_rot_s_10.jpg', 'sponge_rot_s_8.jpg']",['sponge_rot_s_6.jpg'],0,1,green,red,0.2,0
+purple,"['sponge_rot_s_6.jpg', 'sponge_rot_s_4.jpg', 'sponge_rot_s_2.jpg', 'sponge_rot_s_10.jpg', 'sponge_rot_s_8.jpg']",['sponge_rot_s_10.jpg'],0,2,green,purple,0.2,0
+blue,"['sponge_rot_s_6.jpg', 'sponge_rot_s_4.jpg', 'sponge_rot_s_2.jpg', 'sponge_rot_s_10.jpg', 'sponge_rot_s_8.jpg']",['sponge_rot_s_8.jpg'],0,1,green,blue,0.2,0
+pink,"['pail_rot_s_5.jpg', 'pail_rot_s_7.jpg', 'pail_rot_s_1.jpg', 'pail_rot_s_9.jpg']",['pail_rot_s_5.jpg'],0,1,green,pink,0.25,0
+green,"['pail_rot_s_5.jpg', 'pail_rot_s_7.jpg', 'pail_rot_s_1.jpg', 'pail_rot_s_9.jpg']",['pail_rot_s_7.jpg'],0,2,yellow,green,0.25,0
+yellow,"['pail_rot_s_5.jpg', 'pail_rot_s_7.jpg', 'pail_rot_s_1.jpg', 'pail_rot_s_9.jpg']",['pail_rot_s_1.jpg'],0,2,yellow,yellow,0.25,1
+blue,"['pail_rot_s_5.jpg', 'pail_rot_s_7.jpg', 'pail_rot_s_1.jpg', 'pail_rot_s_9.jpg']",['pail_rot_s_9.jpg'],0,2,yellow,blue,0.25,0
+blue,"['notebook_rot_s_8.jpg', 'notebook_rot_s_10.jpg', 'notebook_rot_s_2.jpg', 'notebook_rot_s_6.jpg', 'notebook_rot_s_4.jpg']",['notebook_rot_s_8.jpg'],0,4,green,blue,0.2,0
+purple,"['notebook_rot_s_8.jpg', 'notebook_rot_s_10.jpg', 'notebook_rot_s_2.jpg', 'notebook_rot_s_6.jpg', 'notebook_rot_s_4.jpg']",['notebook_rot_s_10.jpg'],0,1,purple,purple,0.2,1
+red,"['notebook_rot_s_8.jpg', 'notebook_rot_s_10.jpg', 'notebook_rot_s_2.jpg', 'notebook_rot_s_6.jpg', 'notebook_rot_s_4.jpg']",['notebook_rot_s_6.jpg'],0,4,green,red,0.2,0
+red,"['razor_rot_s_1.jpg', 'razor_rot_s_3.jpg', 'razor_rot_s_5.jpg', 'razor_rot_s_9.jpg']",['razor_rot_s_1.jpg'],0,0,red,red,0.25,1
+purple,"['razor_rot_s_1.jpg', 'razor_rot_s_3.jpg', 'razor_rot_s_5.jpg', 'razor_rot_s_9.jpg']",['razor_rot_s_3.jpg'],0,1,purple,purple,0.25,1
+blue,"['razor_rot_s_1.jpg', 'razor_rot_s_3.jpg', 'razor_rot_s_5.jpg', 'razor_rot_s_9.jpg']",['razor_rot_s_5.jpg'],0,0,red,blue,0.25,0
+green,"['razor_rot_s_1.jpg', 'razor_rot_s_3.jpg', 'razor_rot_s_5.jpg', 'razor_rot_s_9.jpg']",['razor_rot_s_9.jpg'],0,1,purple,green,0.25,0
+purple,"['notebook_rot_s_9.jpg', 'notebook_rot_s_1.jpg', 'notebook_rot_s_3.jpg', 'notebook_rot_s_7.jpg', 'notebook_rot_s_5.jpg']",['notebook_rot_s_9.jpg'],0,0,purple,purple,0.2,1
+blue,"['notebook_rot_s_9.jpg', 'notebook_rot_s_1.jpg', 'notebook_rot_s_3.jpg', 'notebook_rot_s_7.jpg', 'notebook_rot_s_5.jpg']",['notebook_rot_s_7.jpg'],0,2,green,blue,0.2,0
+red,"['notebook_rot_s_9.jpg', 'notebook_rot_s_1.jpg', 'notebook_rot_s_3.jpg', 'notebook_rot_s_7.jpg', 'notebook_rot_s_5.jpg']",['notebook_rot_s_5.jpg'],0,3,blue,red,0.2,0
+blue,"['sponge_rot_s_7.jpg', 'sponge_rot_s_5.jpg', 'sponge_rot_s_1.jpg', 'sponge_rot_s_3.jpg', 'sponge_rot_s_9.jpg']",['sponge_rot_s_7.jpg'],0,4,purple,blue,0.2,0
+red,"['sponge_rot_s_7.jpg', 'sponge_rot_s_5.jpg', 'sponge_rot_s_1.jpg', 'sponge_rot_s_3.jpg', 'sponge_rot_s_9.jpg']",['sponge_rot_s_5.jpg'],0,2,green,red,0.2,0
+purple,"['sponge_rot_s_7.jpg', 'sponge_rot_s_5.jpg', 'sponge_rot_s_1.jpg', 'sponge_rot_s_3.jpg', 'sponge_rot_s_9.jpg']",['sponge_rot_s_9.jpg'],0,2,green,purple,0.2,0
+brown,"['gloves_rot_s_9.jpg', 'gloves_rot_s_1.jpg', 'gloves_rot_s_3.jpg', 'gloves_rot_s_7.jpg', 'gloves_rot_s_5.jpg']",['gloves_rot_s_9.jpg'],0,0,brown,brown,0.2,1
+pink,"['gloves_rot_s_9.jpg', 'gloves_rot_s_1.jpg', 'gloves_rot_s_3.jpg', 'gloves_rot_s_7.jpg', 'gloves_rot_s_5.jpg']",['gloves_rot_s_7.jpg'],0,4,green,pink,0.2,0
+green,"['gloves_rot_s_9.jpg', 'gloves_rot_s_1.jpg', 'gloves_rot_s_3.jpg', 'gloves_rot_s_7.jpg', 'gloves_rot_s_5.jpg']",['gloves_rot_s_5.jpg'],0,0,brown,green,0.2,0
+pink,"['theater_seats_rot_s_2.jpg', 'theater_seats_rot_s_4.jpg', 'theater_seats_rot_s_6.jpg', 'theater_seats_rot_s_10.jpg']",['theater_seats_rot_s_2.jpg'],0,0,pink,pink,0.25,1
+purple,"['theater_seats_rot_s_2.jpg', 'theater_seats_rot_s_4.jpg', 'theater_seats_rot_s_6.jpg', 'theater_seats_rot_s_10.jpg']",['theater_seats_rot_s_4.jpg'],0,0,pink,purple,0.25,0
+green,"['theater_seats_rot_s_2.jpg', 'theater_seats_rot_s_4.jpg', 'theater_seats_rot_s_6.jpg', 'theater_seats_rot_s_10.jpg']",['theater_seats_rot_s_6.jpg'],0,0,pink,green,0.25,0
+yellow,"['theater_seats_rot_s_2.jpg', 'theater_seats_rot_s_4.jpg', 'theater_seats_rot_s_6.jpg', 'theater_seats_rot_s_10.jpg']",['theater_seats_rot_s_10.jpg'],0,0,pink,yellow,0.25,0
+blue,"['fuel_tank_rot_s_1.jpg', 'fuel_tank_rot_s_3.jpg', 'fuel_tank_rot_s_7.jpg', 'fuel_tank_rot_s_5.jpg', 'fuel_tank_rot_s_9.jpg']",['fuel_tank_rot_s_7.jpg'],0,2,blue,blue,0.2,1
+red,"['fuel_tank_rot_s_1.jpg', 'fuel_tank_rot_s_3.jpg', 'fuel_tank_rot_s_7.jpg', 'fuel_tank_rot_s_5.jpg', 'fuel_tank_rot_s_9.jpg']",['fuel_tank_rot_s_5.jpg'],0,4,purple,red,0.2,0
+purple,"['fuel_tank_rot_s_1.jpg', 'fuel_tank_rot_s_3.jpg', 'fuel_tank_rot_s_7.jpg', 'fuel_tank_rot_s_5.jpg', 'fuel_tank_rot_s_9.jpg']",['fuel_tank_rot_s_9.jpg'],0,0,green,purple,0.2,0
+green,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_3.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_7.jpg'],0,3,brown,green,0.2,0
+purple,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_3.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_5.jpg'],0,4,blue,purple,0.2,0
+yellow,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_3.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_1.jpg'],0,0,green,yellow,0.2,0
+brown,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_3.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_3.jpg'],0,3,brown,brown,0.2,1
+blue,"['cardboard_rot_s_7.jpg', 'cardboard_rot_s_5.jpg', 'cardboard_rot_s_1.jpg', 'cardboard_rot_s_3.jpg', 'cardboard_rot_s_9.jpg']",['cardboard_rot_s_9.jpg'],0,0,green,blue,0.2,0
+purple,"['takeout_container_rot_s_6.jpg', 'takeout_container_rot_s_4.jpg', 'takeout_container_rot_s_2.jpg', 'takeout_container_rot_s_10.jpg', 'takeout_container_rot_s_8.jpg']",['takeout_container_rot_s_4.jpg'],0,0,green,purple,0.2,0
+pink,"['takeout_container_rot_s_6.jpg', 'takeout_container_rot_s_4.jpg', 'takeout_container_rot_s_2.jpg', 'takeout_container_rot_s_10.jpg', 'takeout_container_rot_s_8.jpg']",['takeout_container_rot_s_2.jpg'],0,0,green,pink,0.2,0
+yellow,"['takeout_container_rot_s_6.jpg', 'takeout_container_rot_s_4.jpg', 'takeout_container_rot_s_2.jpg', 'takeout_container_rot_s_10.jpg', 'takeout_container_rot_s_8.jpg']",['takeout_container_rot_s_8.jpg'],0,2,pink,yellow,0.2,0
+pink,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_3.jpg'],0,3,yellow,pink,0.2,0
+red,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_1.jpg'],0,0,pink,red,0.2,0
+blue,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_5.jpg'],0,4,green,blue,0.2,0
+yellow,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_7.jpg'],0,2,blue,yellow,0.2,0
+green,"['handbag_rot_s_3.jpg', 'handbag_rot_s_1.jpg', 'handbag_rot_s_5.jpg', 'handbag_rot_s_7.jpg', 'handbag_rot_s_9.jpg']",['handbag_rot_s_9.jpg'],0,4,green,green,0.2,1
+green,"['container_open_rot_s_9.jpg', 'container_open_rot_s_1.jpg', 'container_open_rot_s_3.jpg', 'container_open_rot_s_7.jpg', 'container_open_rot_s_5.jpg']",['container_open_rot_s_9.jpg'],0,3,yellow,green,0.2,0
+yellow,"['container_open_rot_s_9.jpg', 'container_open_rot_s_1.jpg', 'container_open_rot_s_3.jpg', 'container_open_rot_s_7.jpg', 'container_open_rot_s_5.jpg']",['container_open_rot_s_7.jpg'],0,4,blue,yellow,0.2,0
+blue,"['container_open_rot_s_9.jpg', 'container_open_rot_s_1.jpg', 'container_open_rot_s_3.jpg', 'container_open_rot_s_7.jpg', 'container_open_rot_s_5.jpg']",['container_open_rot_s_5.jpg'],0,3,yellow,blue,0.2,0
+yellow,"['truck_rot_s_4.jpg', 'truck_rot_s_2.jpg', 'truck_rot_s_10.jpg', 'truck_rot_s_8.jpg']",['truck_rot_s_4.jpg'],0,3,blue,yellow,0.25,0
+green,"['truck_rot_s_4.jpg', 'truck_rot_s_2.jpg', 'truck_rot_s_10.jpg', 'truck_rot_s_8.jpg']",['truck_rot_s_2.jpg'],0,2,blue,green,0.25,0
+brown,"['tape_dispenser_rot_s_1.jpg', 'tape_dispenser_rot_s_3.jpg', 'tape_dispenser_rot_s_7.jpg', 'tape_dispenser_rot_s_5.jpg', 'tape_dispenser_rot_s_9.jpg']",['tape_dispenser_rot_s_7.jpg'],0,4,green,brown,0.2,0
+green,"['valve_rot_s_5.jpg', 'valve_rot_s_1.jpg', 'valve_rot_s_3.jpg']",['valve_rot_s_5.jpg'],0,0,green,green,0.3333333333333333,1
+green,"['sugar_bowl_rot_s_10.jpg', 'sugar_bowl_rot_s_8.jpg', 'sugar_bowl_rot_s_2.jpg']",['sugar_bowl_rot_s_2.jpg'],0,2,green,green,0.3333333333333333,1
+green,"['controlbox_rot_s_8.jpg', 'controlbox_rot_s_10.jpg', 'controlbox_rot_s_4.jpg', 'controlbox_rot_s_6.jpg']",['controlbox_rot_s_8.jpg'],0,3,purple,green,0.25,0
+blue,"['controlbox_rot_s_8.jpg', 'controlbox_rot_s_10.jpg', 'controlbox_rot_s_4.jpg', 'controlbox_rot_s_6.jpg']",['controlbox_rot_s_10.jpg'],0,3,purple,blue,0.25,0
+brown,"['controlbox_rot_s_8.jpg', 'controlbox_rot_s_10.jpg', 'controlbox_rot_s_4.jpg', 'controlbox_rot_s_6.jpg']",['controlbox_rot_s_4.jpg'],0,3,purple,brown,0.25,0
+purple,"['controlbox_rot_s_8.jpg', 'controlbox_rot_s_10.jpg', 'controlbox_rot_s_4.jpg', 'controlbox_rot_s_6.jpg']",['controlbox_rot_s_6.jpg'],0,3,purple,purple,0.25,1
+purple,"['gift_box_rot_s_9.jpg', 'gift_box_rot_s_3.jpg', 'gift_box_rot_s_1.jpg', 'gift_box_rot_s_5.jpg', 'gift_box_rot_s_7.jpg']",['gift_box_rot_s_3.jpg'],0,3,blue,purple,0.2,0
+brown,"['gift_box_rot_s_9.jpg', 'gift_box_rot_s_3.jpg', 'gift_box_rot_s_1.jpg', 'gift_box_rot_s_5.jpg', 'gift_box_rot_s_7.jpg']",['gift_box_rot_s_1.jpg'],0,3,blue,brown,0.2,0
+blue,"['gift_box_rot_s_9.jpg', 'gift_box_rot_s_3.jpg', 'gift_box_rot_s_1.jpg', 'gift_box_rot_s_5.jpg', 'gift_box_rot_s_7.jpg']",['gift_box_rot_s_5.jpg'],0,3,blue,blue,0.2,1
+pink,"['pail_rot_s_6.jpg', 'pail_rot_s_10.jpg', 'pail_rot_s_8.jpg']",['pail_rot_s_6.jpg'],0,1,blue,pink,0.3333333333333333,0
+blue,"['pail_rot_s_6.jpg', 'pail_rot_s_10.jpg', 'pail_rot_s_8.jpg']",['pail_rot_s_10.jpg'],0,2,green,blue,0.3333333333333333,0
+green,"['pail_rot_s_6.jpg', 'pail_rot_s_10.jpg', 'pail_rot_s_8.jpg']",['pail_rot_s_8.jpg'],0,0,pink,green,0.3333333333333333,0
+blue,"['tissues_rot_s_9.jpg', 'tissues_rot_s_3.jpg', 'tissues_rot_s_7.jpg']",['tissues_rot_s_3.jpg'],0,0,purple,blue,0.3333333333333333,0
+yellow,"['notecards_rot_s_9.jpg', 'notecards_rot_s_3.jpg', 'notecards_rot_s_1.jpg', 'notecards_rot_s_5.jpg']",['notecards_rot_s_9.jpg'],0,3,green,yellow,0.25,0
+blue,"['notecards_rot_s_9.jpg', 'notecards_rot_s_3.jpg', 'notecards_rot_s_1.jpg', 'notecards_rot_s_5.jpg']",['notecards_rot_s_3.jpg'],0,1,blue,blue,0.25,1
+purple,"['notecards_rot_s_9.jpg', 'notecards_rot_s_3.jpg', 'notecards_rot_s_1.jpg', 'notecards_rot_s_5.jpg']",['notecards_rot_s_1.jpg'],0,3,green,purple,0.25,0
+green,"['notecards_rot_s_9.jpg', 'notecards_rot_s_3.jpg', 'notecards_rot_s_1.jpg', 'notecards_rot_s_5.jpg']",['notecards_rot_s_5.jpg'],0,3,green,green,0.25,1
+red,"['notecards_rot_s_8.jpg', 'notecards_rot_s_10.jpg', 'notecards_rot_s_2.jpg', 'notecards_rot_s_4.jpg', 'notecards_rot_s_6.jpg']",['notecards_rot_s_8.jpg'],0,2,purple,red,0.2,0
+yellow,"['notecards_rot_s_8.jpg', 'notecards_rot_s_10.jpg', 'notecards_rot_s_2.jpg', 'notecards_rot_s_4.jpg', 'notecards_rot_s_6.jpg']",['notecards_rot_s_10.jpg'],0,4,green,yellow,0.2,0
+purple,"['notecards_rot_s_8.jpg', 'notecards_rot_s_10.jpg', 'notecards_rot_s_2.jpg', 'notecards_rot_s_4.jpg', 'notecards_rot_s_6.jpg']",['notecards_rot_s_2.jpg'],0,4,green,purple,0.2,0
+blue,"['notecards_rot_s_8.jpg', 'notecards_rot_s_10.jpg', 'notecards_rot_s_2.jpg', 'notecards_rot_s_4.jpg', 'notecards_rot_s_6.jpg']",['notecards_rot_s_4.jpg'],0,4,green,blue,0.2,0
+green,"['notecards_rot_s_8.jpg', 'notecards_rot_s_10.jpg', 'notecards_rot_s_2.jpg', 'notecards_rot_s_4.jpg', 'notecards_rot_s_6.jpg']",['notecards_rot_s_6.jpg'],0,4,green,green,0.2,1
+red,"['razor_rot_s_2.jpg', 'razor_rot_s_6.jpg', 'razor_rot_s_4.jpg', 'razor_rot_s_10.jpg']",['razor_rot_s_2.jpg'],0,0,red,red,0.25,1
+blue,"['razor_rot_s_2.jpg', 'razor_rot_s_6.jpg', 'razor_rot_s_4.jpg', 'razor_rot_s_10.jpg']",['razor_rot_s_6.jpg'],0,0,red,blue,0.25,0
+purple,"['razor_rot_s_2.jpg', 'razor_rot_s_6.jpg', 'razor_rot_s_4.jpg', 'razor_rot_s_10.jpg']",['razor_rot_s_4.jpg'],0,0,red,purple,0.25,0
+green,"['razor_rot_s_2.jpg', 'razor_rot_s_6.jpg', 'razor_rot_s_4.jpg', 'razor_rot_s_10.jpg']",['razor_rot_s_10.jpg'],0,2,purple,green,0.25,0
+purple,"['hand_puppet_rot_s_10.jpg', 'hand_puppet_rot_s_8.jpg', 'hand_puppet_rot_s_4.jpg', 'hand_puppet_rot_s_6.jpg', 'hand_puppet_rot_s_2.jpg']",['hand_puppet_rot_s_10.jpg'],0,4,green,purple,0.2,0
+blue,"['hand_puppet_rot_s_10.jpg', 'hand_puppet_rot_s_8.jpg', 'hand_puppet_rot_s_4.jpg', 'hand_puppet_rot_s_6.jpg', 'hand_puppet_rot_s_2.jpg']",['hand_puppet_rot_s_8.jpg'],0,0,purple,blue,0.2,0
+yellow,"['hand_puppet_rot_s_10.jpg', 'hand_puppet_rot_s_8.jpg', 'hand_puppet_rot_s_4.jpg', 'hand_puppet_rot_s_6.jpg', 'hand_puppet_rot_s_2.jpg']",['hand_puppet_rot_s_4.jpg'],0,3,pink,yellow,0.2,0
+pink,"['hand_puppet_rot_s_10.jpg', 'hand_puppet_rot_s_8.jpg', 'hand_puppet_rot_s_4.jpg', 'hand_puppet_rot_s_6.jpg', 'hand_puppet_rot_s_2.jpg']",['hand_puppet_rot_s_6.jpg'],0,3,pink,pink,0.2,1
+green,"['hand_puppet_rot_s_10.jpg', 'hand_puppet_rot_s_8.jpg', 'hand_puppet_rot_s_4.jpg', 'hand_puppet_rot_s_6.jpg', 'hand_puppet_rot_s_2.jpg']",['hand_puppet_rot_s_2.jpg'],0,4,green,green,0.2,1
+purple,"['tissues_rot_s_8.jpg', 'tissues_rot_s_4.jpg']",['tissues_rot_s_8.jpg'],0,0,purple,purple,0.5,1
+blue,"['tissues_rot_s_8.jpg', 'tissues_rot_s_4.jpg']",['tissues_rot_s_4.jpg'],0,0,purple,blue,0.5,0
+blue,"['extension_cord_s_8.jpg', 'extension_cord_s_10.jpg', 'extension_cord_s_2.jpg', 'extension_cord_s_4.jpg']",['extension_cord_s_8.jpg'],0,1,purple,blue,0.25,0
+purple,"['extension_cord_s_8.jpg', 'extension_cord_s_10.jpg', 'extension_cord_s_2.jpg', 'extension_cord_s_4.jpg']",['extension_cord_s_10.jpg'],0,1,purple,purple,0.25,1
+brown,"['gift_box_rot_s_8.jpg', 'gift_box_rot_s_10.jpg', 'gift_box_rot_s_2.jpg', 'gift_box_rot_s_4.jpg', 'gift_box_rot_s_6.jpg']",['gift_box_rot_s_2.jpg'],0,0,green,brown,0.2,0
+purple,"['gift_box_rot_s_8.jpg', 'gift_box_rot_s_10.jpg', 'gift_box_rot_s_2.jpg', 'gift_box_rot_s_4.jpg', 'gift_box_rot_s_6.jpg']",['gift_box_rot_s_4.jpg'],0,4,blue,purple,0.2,0
+blue,"['gift_box_rot_s_8.jpg', 'gift_box_rot_s_10.jpg', 'gift_box_rot_s_2.jpg', 'gift_box_rot_s_4.jpg', 'gift_box_rot_s_6.jpg']",['gift_box_rot_s_6.jpg'],0,0,green,blue,0.2,0
+blue,"['controlbox_rot_s_9.jpg', 'controlbox_rot_s_3.jpg', 'controlbox_rot_s_5.jpg', 'controlbox_rot_s_7.jpg']",['controlbox_rot_s_9.jpg'],0,0,blue,blue,0.25,1
+brown,"['controlbox_rot_s_9.jpg', 'controlbox_rot_s_3.jpg', 'controlbox_rot_s_5.jpg', 'controlbox_rot_s_7.jpg']",['controlbox_rot_s_3.jpg'],0,0,blue,brown,0.25,0
+purple,"['controlbox_rot_s_9.jpg', 'controlbox_rot_s_3.jpg', 'controlbox_rot_s_5.jpg', 'controlbox_rot_s_7.jpg']",['controlbox_rot_s_5.jpg'],0,0,blue,purple,0.25,0
+green,"['controlbox_rot_s_9.jpg', 'controlbox_rot_s_3.jpg', 'controlbox_rot_s_5.jpg', 'controlbox_rot_s_7.jpg']",['controlbox_rot_s_7.jpg'],0,0,blue,green,0.25,0
+red,"['fuel_tank_rot_s_2.jpg', 'fuel_tank_rot_s_6.jpg', 'fuel_tank_rot_s_4.jpg', 'fuel_tank_rot_s_10.jpg', 'fuel_tank_rot_s_8.jpg']",['fuel_tank_rot_s_6.jpg'],0,0,green,red,0.2,0
+purple,"['fuel_tank_rot_s_2.jpg', 'fuel_tank_rot_s_6.jpg', 'fuel_tank_rot_s_4.jpg', 'fuel_tank_rot_s_10.jpg', 'fuel_tank_rot_s_8.jpg']",['fuel_tank_rot_s_10.jpg'],0,0,green,purple,0.2,0
+blue,"['fuel_tank_rot_s_2.jpg', 'fuel_tank_rot_s_6.jpg', 'fuel_tank_rot_s_4.jpg', 'fuel_tank_rot_s_10.jpg', 'fuel_tank_rot_s_8.jpg']",['fuel_tank_rot_s_8.jpg'],0,4,blue,blue,0.2,1
+blue,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_10.jpg'],0,1,yellow,blue,0.2,0
+yellow,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_2.jpg'],0,4,green,yellow,0.2,0
+purple,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_6.jpg'],0,4,green,purple,0.2,0
+red,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_4.jpg'],0,1,yellow,red,0.2,0
+green,"['lotion_rot_s_10.jpg', 'lotion_rot_s_2.jpg', 'lotion_rot_s_6.jpg', 'lotion_rot_s_4.jpg', 'lotion_rot_s_8.jpg']",['lotion_rot_s_8.jpg'],0,1,yellow,green,0.2,0
+yellow,"['truck_rot_s_7.jpg', 'truck_rot_s_3.jpg', 'truck_rot_s_1.jpg', 'truck_rot_s_9.jpg']",['truck_rot_s_3.jpg'],0,3,blue,yellow,0.25,0
+green,"['truck_rot_s_7.jpg', 'truck_rot_s_3.jpg', 'truck_rot_s_1.jpg', 'truck_rot_s_9.jpg']",['truck_rot_s_1.jpg'],0,2,green,green,0.25,1
+brown,"['tape_dispenser_rot_s_2.jpg', 'tape_dispenser_rot_s_10.jpg', 'tape_dispenser_rot_s_6.jpg', 'tape_dispenser_rot_s_4.jpg', 'tape_dispenser_rot_s_8.jpg']",['tape_dispenser_rot_s_8.jpg'],0,1,green,brown,0.2,0
+red,"['usb_key_rot_s_9.jpg', 'usb_key_rot_s_1.jpg', 'usb_key_rot_s_3.jpg']",['usb_key_rot_s_9.jpg'],0,2,blue,red,0.3333333333333333,0
+green,"['chair_rot_s_8.jpg', 'chair_rot_s_10.jpg', 'chair_rot_s_6.jpg', 'chair_rot_s_4.jpg', 'chair_rot_s_2.jpg']",['chair_rot_s_8.jpg'],0,4,yellow,green,0.2,0
+blue,"['chair_rot_s_8.jpg', 'chair_rot_s_10.jpg', 'chair_rot_s_6.jpg', 'chair_rot_s_4.jpg', 'chair_rot_s_2.jpg']",['chair_rot_s_10.jpg'],0,0,green,blue,0.2,0
+purple,"['chair_rot_s_8.jpg', 'chair_rot_s_10.jpg', 'chair_rot_s_6.jpg', 'chair_rot_s_4.jpg', 'chair_rot_s_2.jpg']",['chair_rot_s_6.jpg'],0,0,green,purple,0.2,0
+red,"['chair_rot_s_8.jpg', 'chair_rot_s_10.jpg', 'chair_rot_s_6.jpg', 'chair_rot_s_4.jpg', 'chair_rot_s_2.jpg']",['chair_rot_s_4.jpg'],0,2,purple,red,0.2,0
+yellow,"['chair_rot_s_8.jpg', 'chair_rot_s_10.jpg', 'chair_rot_s_6.jpg', 'chair_rot_s_4.jpg', 'chair_rot_s_2.jpg']",['chair_rot_s_2.jpg'],0,0,green,yellow,0.2,0
+green,"['kettle_rot_s_8.jpg', 'kettle_rot_s_10.jpg', 'kettle_rot_s_6.jpg', 'kettle_rot_s_4.jpg', 'kettle_rot_s_2.jpg']",['kettle_rot_s_8.jpg'],0,0,green,green,0.2,1
+blue,"['kettle_rot_s_8.jpg', 'kettle_rot_s_10.jpg', 'kettle_rot_s_6.jpg', 'kettle_rot_s_4.jpg', 'kettle_rot_s_2.jpg']",['kettle_rot_s_10.jpg'],0,0,green,blue,0.2,0
+purple,"['kettle_rot_s_8.jpg', 'kettle_rot_s_10.jpg', 'kettle_rot_s_6.jpg', 'kettle_rot_s_4.jpg', 'kettle_rot_s_2.jpg']",['kettle_rot_s_6.jpg'],0,0,green,purple,0.2,0
+red,"['kettle_rot_s_8.jpg', 'kettle_rot_s_10.jpg', 'kettle_rot_s_6.jpg', 'kettle_rot_s_4.jpg', 'kettle_rot_s_2.jpg']",['kettle_rot_s_4.jpg'],0,0,green,red,0.2,0
+yellow,"['kettle_rot_s_8.jpg', 'kettle_rot_s_10.jpg', 'kettle_rot_s_6.jpg', 'kettle_rot_s_4.jpg', 'kettle_rot_s_2.jpg']",['kettle_rot_s_2.jpg'],0,0,green,yellow,0.2,0
+blue,"['kettle_rot_s_9.jpg', 'kettle_rot_s_7.jpg', 'kettle_rot_s_5.jpg', 'kettle_rot_s_1.jpg', 'kettle_rot_s_3.jpg']",['kettle_rot_s_9.jpg'],0,3,yellow,blue,0.2,0
+green,"['kettle_rot_s_9.jpg', 'kettle_rot_s_7.jpg', 'kettle_rot_s_5.jpg', 'kettle_rot_s_1.jpg', 'kettle_rot_s_3.jpg']",['kettle_rot_s_7.jpg'],0,3,yellow,green,0.2,0
+purple,"['kettle_rot_s_9.jpg', 'kettle_rot_s_7.jpg', 'kettle_rot_s_5.jpg', 'kettle_rot_s_1.jpg', 'kettle_rot_s_3.jpg']",['kettle_rot_s_5.jpg'],0,1,green,purple,0.2,0
+yellow,"['kettle_rot_s_9.jpg', 'kettle_rot_s_7.jpg', 'kettle_rot_s_5.jpg', 'kettle_rot_s_1.jpg', 'kettle_rot_s_3.jpg']",['kettle_rot_s_1.jpg'],0,3,yellow,yellow,0.2,1
+red,"['kettle_rot_s_9.jpg', 'kettle_rot_s_7.jpg', 'kettle_rot_s_5.jpg', 'kettle_rot_s_1.jpg', 'kettle_rot_s_3.jpg']",['kettle_rot_s_3.jpg'],0,3,yellow,red,0.2,0
+green,"['sugar_bowl_rot_s_9.jpg', 'sugar_bowl_rot_s_7.jpg', 'sugar_bowl_rot_s_1.jpg']",['sugar_bowl_rot_s_1.jpg'],0,2,green,green,0.3333333333333333,1
+red,"['watch_rot_s_9.jpg', 'watch_rot_s_5.jpg', 'watch_rot_s_1.jpg']",['watch_rot_s_9.jpg'],0,0,red,red,0.3333333333333333,1
+yellow,"['watch_rot_s_9.jpg', 'watch_rot_s_5.jpg', 'watch_rot_s_1.jpg']",['watch_rot_s_5.jpg'],0,0,red,yellow,0.3333333333333333,0
+blue,"['watch_rot_s_9.jpg', 'watch_rot_s_5.jpg', 'watch_rot_s_1.jpg']",['watch_rot_s_1.jpg'],0,2,blue,blue,0.3333333333333333,1
+green,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_10.jpg'],0,1,blue,green,0.2,0
+blue,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_6.jpg'],0,0,green,blue,0.2,0
+purple,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_4.jpg'],0,1,blue,purple,0.2,0
+pink,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_2.jpg'],0,2,purple,pink,0.2,0
+yellow,"['nailpolish_rot_s_10.jpg', 'nailpolish_rot_s_6.jpg', 'nailpolish_rot_s_4.jpg', 'nailpolish_rot_s_2.jpg', 'nailpolish_rot_s_8.jpg']",['nailpolish_rot_s_8.jpg'],0,1,blue,yellow,0.2,0
+blue,"['towel_rot_s_9.jpg', 'towel_rot_s_5.jpg', 'towel_rot_s_7.jpg', 'towel_rot_s_3.jpg', 'towel_rot_s_1.jpg']",['towel_rot_s_5.jpg'],0,2,green,blue,0.2,0
+purple,"['towel_rot_s_9.jpg', 'towel_rot_s_5.jpg', 'towel_rot_s_7.jpg', 'towel_rot_s_3.jpg', 'towel_rot_s_1.jpg']",['towel_rot_s_3.jpg'],0,2,green,purple,0.2,0
+brown,"['towel_rot_s_9.jpg', 'towel_rot_s_5.jpg', 'towel_rot_s_7.jpg', 'towel_rot_s_3.jpg', 'towel_rot_s_1.jpg']",['towel_rot_s_1.jpg'],0,1,blue,brown,0.2,0
+purple,"['hand_puppet_rot_s_9.jpg', 'hand_puppet_rot_s_5.jpg', 'hand_puppet_rot_s_7.jpg', 'hand_puppet_rot_s_3.jpg', 'hand_puppet_rot_s_1.jpg']",['hand_puppet_rot_s_9.jpg'],0,4,green,purple,0.2,0
+pink,"['hand_puppet_rot_s_9.jpg', 'hand_puppet_rot_s_5.jpg', 'hand_puppet_rot_s_7.jpg', 'hand_puppet_rot_s_3.jpg', 'hand_puppet_rot_s_1.jpg']",['hand_puppet_rot_s_5.jpg'],0,0,purple,pink,0.2,0
+blue,"['hand_puppet_rot_s_9.jpg', 'hand_puppet_rot_s_5.jpg', 'hand_puppet_rot_s_7.jpg', 'hand_puppet_rot_s_3.jpg', 'hand_puppet_rot_s_1.jpg']",['hand_puppet_rot_s_7.jpg'],0,4,green,blue,0.2,0
+yellow,"['hand_puppet_rot_s_9.jpg', 'hand_puppet_rot_s_5.jpg', 'hand_puppet_rot_s_7.jpg', 'hand_puppet_rot_s_3.jpg', 'hand_puppet_rot_s_1.jpg']",['hand_puppet_rot_s_3.jpg'],0,2,blue,yellow,0.2,0
+green,"['hand_puppet_rot_s_9.jpg', 'hand_puppet_rot_s_5.jpg', 'hand_puppet_rot_s_7.jpg', 'hand_puppet_rot_s_3.jpg', 'hand_puppet_rot_s_1.jpg']",['hand_puppet_rot_s_1.jpg'],0,2,blue,green,0.2,0
+red,"['accordion_rot_s_8.jpg', 'accordion_rot_s_10.jpg', 'accordion_rot_s_4.jpg', 'accordion_rot_s_6.jpg', 'accordion_rot_s_2.jpg']",['accordion_rot_s_8.jpg'],0,2,purple,red,0.2,0
+yellow,"['accordion_rot_s_8.jpg', 'accordion_rot_s_10.jpg', 'accordion_rot_s_4.jpg', 'accordion_rot_s_6.jpg', 'accordion_rot_s_2.jpg']",['accordion_rot_s_10.jpg'],0,2,purple,yellow,0.2,0
+green,"['accordion_rot_s_8.jpg', 'accordion_rot_s_10.jpg', 'accordion_rot_s_4.jpg', 'accordion_rot_s_6.jpg', 'accordion_rot_s_2.jpg']",['accordion_rot_s_6.jpg'],0,4,purple,green,0.2,0
+purple,"['flask_rot_s_9.jpg', 'flask_rot_s_7.jpg', 'flask_rot_s_3.jpg', 'flask_rot_s_1.jpg']",['flask_rot_s_9.jpg'],0,3,green,purple,0.25,0
+blue,"['flask_rot_s_9.jpg', 'flask_rot_s_7.jpg', 'flask_rot_s_3.jpg', 'flask_rot_s_1.jpg']",['flask_rot_s_7.jpg'],0,1,blue,blue,0.25,1
+yellow,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_4.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_8.jpg'],0,4,red,yellow,0.2,0
+green,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_4.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_10.jpg'],0,4,red,green,0.2,0
+purple,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_4.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_4.jpg'],0,0,yellow,purple,0.2,0
+blue,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_4.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_6.jpg'],0,0,yellow,blue,0.2,0
+red,"['scanner_rot_s_8.jpg', 'scanner_rot_s_10.jpg', 'scanner_rot_s_4.jpg', 'scanner_rot_s_6.jpg', 'scanner_rot_s_2.jpg']",['scanner_rot_s_2.jpg'],0,0,yellow,red,0.2,0
+purple,"['jacket_rot_s_10.jpg', 'jacket_rot_s_4.jpg', 'jacket_rot_s_6.jpg', 'jacket_rot_s_2.jpg']",['jacket_rot_s_4.jpg'],0,3,pink,purple,0.25,0
+pink,"['jacket_rot_s_10.jpg', 'jacket_rot_s_4.jpg', 'jacket_rot_s_6.jpg', 'jacket_rot_s_2.jpg']",['jacket_rot_s_2.jpg'],0,0,green,pink,0.25,0
+green,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_9.jpg'],0,2,yellow,green,0.25,0
+blue,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_5.jpg'],0,1,blue,blue,0.25,1
+yellow,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_7.jpg'],0,1,blue,yellow,0.25,0
+red,"['scanner_rot_s_9.jpg', 'scanner_rot_s_5.jpg', 'scanner_rot_s_7.jpg', 'scanner_rot_s_1.jpg']",['scanner_rot_s_1.jpg'],0,1,blue,red,0.25,0
+blue,"['flask_rot_s_8.jpg', 'flask_rot_s_4.jpg', 'flask_rot_s_6.jpg', 'flask_rot_s_10.jpg', 'flask_rot_s_2.jpg']",['flask_rot_s_8.jpg'],0,0,blue,blue,0.2,1
+brown,"['flask_rot_s_8.jpg', 'flask_rot_s_4.jpg', 'flask_rot_s_6.jpg', 'flask_rot_s_10.jpg', 'flask_rot_s_2.jpg']",['flask_rot_s_6.jpg'],0,2,brown,brown,0.2,1
+purple,"['flask_rot_s_8.jpg', 'flask_rot_s_4.jpg', 'flask_rot_s_6.jpg', 'flask_rot_s_10.jpg', 'flask_rot_s_2.jpg']",['flask_rot_s_10.jpg'],0,1,green,purple,0.2,0
+blue,"['umbrella_rot_s_10.jpg', 'umbrella_rot_s_8.jpg', 'umbrella_rot_s_4.jpg', 'umbrella_rot_s_2.jpg']",['umbrella_rot_s_10.jpg'],0,3,green,blue,0.25,0
+yellow,"['umbrella_rot_s_10.jpg', 'umbrella_rot_s_8.jpg', 'umbrella_rot_s_4.jpg', 'umbrella_rot_s_2.jpg']",['umbrella_rot_s_4.jpg'],0,3,green,yellow,0.25,0
+blue,"['towel_rot_s_8.jpg', 'towel_rot_s_10.jpg', 'towel_rot_s_6.jpg', 'towel_rot_s_2.jpg']",['towel_rot_s_6.jpg'],0,0,green,blue,0.25,0
+brown,"['towel_rot_s_8.jpg', 'towel_rot_s_10.jpg', 'towel_rot_s_6.jpg', 'towel_rot_s_2.jpg']",['towel_rot_s_2.jpg'],0,3,brown,brown,0.25,1
+purple,"['pitcher_rot_s_5.jpg', 'pitcher_rot_s_7.jpg', 'pitcher_rot_s_1.jpg', 'pitcher_rot_s_9.jpg']",['pitcher_rot_s_5.jpg'],0,2,green,purple,0.25,0
+blue,"['pitcher_rot_s_5.jpg', 'pitcher_rot_s_7.jpg', 'pitcher_rot_s_1.jpg', 'pitcher_rot_s_9.jpg']",['pitcher_rot_s_9.jpg'],0,2,green,blue,0.25,0
+yellow,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_7.jpg'],0,1,blue,yellow,0.2,0
+blue,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_5.jpg'],0,4,green,blue,0.2,0
+pink,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_1.jpg'],0,0,yellow,pink,0.2,0
+purple,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_3.jpg'],0,4,green,purple,0.2,0
+green,"['nailpolish_rot_s_7.jpg', 'nailpolish_rot_s_5.jpg', 'nailpolish_rot_s_1.jpg', 'nailpolish_rot_s_3.jpg', 'nailpolish_rot_s_9.jpg']",['nailpolish_rot_s_9.jpg'],0,0,yellow,green,0.2,0
+blue,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_3.jpg'],0,0,blue,blue,0.2,1
+purple,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_1.jpg'],0,4,yellow,purple,0.2,0
+green,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_5.jpg'],0,0,blue,green,0.2,0
+red,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_7.jpg'],0,0,blue,red,0.2,0
+yellow,"['tool_box_rot_s_3.jpg', 'tool_box_rot_s_1.jpg', 'tool_box_rot_s_5.jpg', 'tool_box_rot_s_7.jpg', 'tool_box_rot_s_9.jpg']",['tool_box_rot_s_9.jpg'],0,0,blue,yellow,0.2,0
+brown,"['tennis_racket_rot_s_1.jpg', 'tennis_racket_rot_s_3.jpg', 'tennis_racket_rot_s_7.jpg', 'tennis_racket_rot_s_5.jpg', 'tennis_racket_rot_s_9.jpg']",['tennis_racket_rot_s_1.jpg'],0,0,brown,brown,0.2,1
+pink,"['tennis_racket_rot_s_1.jpg', 'tennis_racket_rot_s_3.jpg', 'tennis_racket_rot_s_7.jpg', 'tennis_racket_rot_s_5.jpg', 'tennis_racket_rot_s_9.jpg']",['tennis_racket_rot_s_3.jpg'],0,4,green,pink,0.2,0
+blue,"['tennis_racket_rot_s_1.jpg', 'tennis_racket_rot_s_3.jpg', 'tennis_racket_rot_s_7.jpg', 'tennis_racket_rot_s_5.jpg', 'tennis_racket_rot_s_9.jpg']",['tennis_racket_rot_s_5.jpg'],0,2,green,blue,0.2,0
+purple,"['measuring_spoons_rot_s_6.jpg', 'measuring_spoons_rot_s_4.jpg', 'measuring_spoons_rot_s_8.jpg', 'measuring_spoons_rot_s_10.jpg']",['measuring_spoons_rot_s_6.jpg'],0,1,red,purple,0.25,0
+red,"['measuring_spoons_rot_s_6.jpg', 'measuring_spoons_rot_s_4.jpg', 'measuring_spoons_rot_s_8.jpg', 'measuring_spoons_rot_s_10.jpg']",['measuring_spoons_rot_s_4.jpg'],0,2,green,red,0.25,0
+green,"['measuring_spoons_rot_s_6.jpg', 'measuring_spoons_rot_s_4.jpg', 'measuring_spoons_rot_s_8.jpg', 'measuring_spoons_rot_s_10.jpg']",['measuring_spoons_rot_s_8.jpg'],0,1,red,green,0.25,0
+blue,"['measuring_spoons_rot_s_6.jpg', 'measuring_spoons_rot_s_4.jpg', 'measuring_spoons_rot_s_8.jpg', 'measuring_spoons_rot_s_10.jpg']",['measuring_spoons_rot_s_10.jpg'],0,2,green,blue,0.25,0
+green,"['packingtape_rot_s_1.jpg', 'packingtape_rot_s_3.jpg', 'packingtape_rot_s_7.jpg', 'packingtape_rot_s_5.jpg']",['packingtape_rot_s_1.jpg'],0,3,pink,green,0.25,0
+yellow,"['packingtape_rot_s_1.jpg', 'packingtape_rot_s_3.jpg', 'packingtape_rot_s_7.jpg', 'packingtape_rot_s_5.jpg']",['packingtape_rot_s_3.jpg'],0,3,pink,yellow,0.25,0
+blue,"['packingtape_rot_s_1.jpg', 'packingtape_rot_s_3.jpg', 'packingtape_rot_s_7.jpg', 'packingtape_rot_s_5.jpg']",['packingtape_rot_s_7.jpg'],0,3,pink,blue,0.25,0
+pink,"['packingtape_rot_s_1.jpg', 'packingtape_rot_s_3.jpg', 'packingtape_rot_s_7.jpg', 'packingtape_rot_s_5.jpg']",['packingtape_rot_s_5.jpg'],0,3,pink,pink,0.25,1
+yellow,"['chapstick_rot_s_6.jpg', 'chapstick_rot_s_4.jpg', 'chapstick_rot_s_2.jpg', 'chapstick_rot_s_10.jpg', 'chapstick_rot_s_8.jpg']",['chapstick_rot_s_6.jpg'],0,3,pink,yellow,0.2,0
+green,"['chapstick_rot_s_6.jpg', 'chapstick_rot_s_4.jpg', 'chapstick_rot_s_2.jpg', 'chapstick_rot_s_10.jpg', 'chapstick_rot_s_8.jpg']",['chapstick_rot_s_4.jpg'],0,3,pink,green,0.2,0
+blue,"['chapstick_rot_s_6.jpg', 'chapstick_rot_s_4.jpg', 'chapstick_rot_s_2.jpg', 'chapstick_rot_s_10.jpg', 'chapstick_rot_s_8.jpg']",['chapstick_rot_s_2.jpg'],0,3,pink,blue,0.2,0
+pink,"['chapstick_rot_s_6.jpg', 'chapstick_rot_s_4.jpg', 'chapstick_rot_s_2.jpg', 'chapstick_rot_s_10.jpg', 'chapstick_rot_s_8.jpg']",['chapstick_rot_s_10.jpg'],0,2,blue,pink,0.2,0
+purple,"['chapstick_rot_s_6.jpg', 'chapstick_rot_s_4.jpg', 'chapstick_rot_s_2.jpg', 'chapstick_rot_s_10.jpg', 'chapstick_rot_s_8.jpg']",['chapstick_rot_s_8.jpg'],0,3,pink,purple,0.2,0
+brown,"['briefcase_rot_s_8.jpg', 'briefcase_rot_s_2.jpg', 'briefcase_rot_s_6.jpg', 'briefcase_rot_s_10.jpg']",['briefcase_rot_s_2.jpg'],0,3,green,brown,0.25,0
+blue,"['briefcase_rot_s_8.jpg', 'briefcase_rot_s_2.jpg', 'briefcase_rot_s_6.jpg', 'briefcase_rot_s_10.jpg']",['briefcase_rot_s_6.jpg'],0,2,blue,blue,0.25,1
+pink,"['jug_rot_s_2.jpg', 'jug_rot_s_4.jpg', 'jug_rot_s_6.jpg', 'jug_rot_s_10.jpg']",['jug_rot_s_2.jpg'],0,1,purple,pink,0.25,0
+purple,"['jug_rot_s_2.jpg', 'jug_rot_s_4.jpg', 'jug_rot_s_6.jpg', 'jug_rot_s_10.jpg']",['jug_rot_s_4.jpg'],0,1,purple,purple,0.25,1
+blue,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_1.jpg'],0,1,green,blue,0.2,0
+green,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_3.jpg'],0,2,purple,green,0.2,0
+purple,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_7.jpg'],0,1,green,purple,0.2,0
+yellow,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_5.jpg'],0,2,purple,yellow,0.2,0
+pink,"['chair_recliner_rot_s_1.jpg', 'chair_recliner_rot_s_3.jpg', 'chair_recliner_rot_s_7.jpg', 'chair_recliner_rot_s_5.jpg', 'chair_recliner_rot_s_9.jpg']",['chair_recliner_rot_s_9.jpg'],0,2,purple,pink,0.2,0
+yellow,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_1.jpg'],0,2,green,yellow,0.2,0
+red,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_3.jpg'],0,2,green,red,0.2,0
+green,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_7.jpg'],0,2,green,green,0.2,1
+purple,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_5.jpg'],0,2,green,purple,0.2,0
+blue,"['lotion_rot_s_1.jpg', 'lotion_rot_s_3.jpg', 'lotion_rot_s_7.jpg', 'lotion_rot_s_5.jpg', 'lotion_rot_s_9.jpg']",['lotion_rot_s_9.jpg'],0,0,yellow,blue,0.2,0
+purple,"['cocktail_umbrella_rot_s_3.jpg', 'cocktail_umbrella_rot_s_1.jpg', 'cocktail_umbrella_rot_s_5.jpg', 'cocktail_umbrella_rot_s_7.jpg', 'cocktail_umbrella_rot_s_9.jpg']",['cocktail_umbrella_rot_s_3.jpg'],0,0,purple,purple,0.2,1
+pink,"['cocktail_umbrella_rot_s_3.jpg', 'cocktail_umbrella_rot_s_1.jpg', 'cocktail_umbrella_rot_s_5.jpg', 'cocktail_umbrella_rot_s_7.jpg', 'cocktail_umbrella_rot_s_9.jpg']",['cocktail_umbrella_rot_s_1.jpg'],0,2,blue,pink,0.2,0
+blue,"['cocktail_umbrella_rot_s_3.jpg', 'cocktail_umbrella_rot_s_1.jpg', 'cocktail_umbrella_rot_s_5.jpg', 'cocktail_umbrella_rot_s_7.jpg', 'cocktail_umbrella_rot_s_9.jpg']",['cocktail_umbrella_rot_s_5.jpg'],0,4,green,blue,0.2,0
+yellow,"['cocktail_umbrella_rot_s_3.jpg', 'cocktail_umbrella_rot_s_1.jpg', 'cocktail_umbrella_rot_s_5.jpg', 'cocktail_umbrella_rot_s_7.jpg', 'cocktail_umbrella_rot_s_9.jpg']",['cocktail_umbrella_rot_s_7.jpg'],0,1,pink,yellow,0.2,0
+green,"['cocktail_umbrella_rot_s_3.jpg', 'cocktail_umbrella_rot_s_1.jpg', 'cocktail_umbrella_rot_s_5.jpg', 'cocktail_umbrella_rot_s_7.jpg', 'cocktail_umbrella_rot_s_9.jpg']",['cocktail_umbrella_rot_s_9.jpg'],0,4,green,green,0.2,1
+pink,"['cocktail_umbrella_rot_s_2.jpg', 'cocktail_umbrella_rot_s_4.jpg', 'cocktail_umbrella_rot_s_6.jpg', 'cocktail_umbrella_rot_s_10.jpg', 'cocktail_umbrella_rot_s_8.jpg']",['cocktail_umbrella_rot_s_2.jpg'],0,0,pink,pink,0.2,1
+purple,"['cocktail_umbrella_rot_s_2.jpg', 'cocktail_umbrella_rot_s_4.jpg', 'cocktail_umbrella_rot_s_6.jpg', 'cocktail_umbrella_rot_s_10.jpg', 'cocktail_umbrella_rot_s_8.jpg']",['cocktail_umbrella_rot_s_4.jpg'],0,3,green,purple,0.2,0
+blue,"['cocktail_umbrella_rot_s_2.jpg', 'cocktail_umbrella_rot_s_4.jpg', 'cocktail_umbrella_rot_s_6.jpg', 'cocktail_umbrella_rot_s_10.jpg', 'cocktail_umbrella_rot_s_8.jpg']",['cocktail_umbrella_rot_s_6.jpg'],0,0,pink,blue,0.2,0
+green,"['cocktail_umbrella_rot_s_2.jpg', 'cocktail_umbrella_rot_s_4.jpg', 'cocktail_umbrella_rot_s_6.jpg', 'cocktail_umbrella_rot_s_10.jpg', 'cocktail_umbrella_rot_s_8.jpg']",['cocktail_umbrella_rot_s_10.jpg'],0,3,green,green,0.2,1
+yellow,"['cocktail_umbrella_rot_s_2.jpg', 'cocktail_umbrella_rot_s_4.jpg', 'cocktail_umbrella_rot_s_6.jpg', 'cocktail_umbrella_rot_s_10.jpg', 'cocktail_umbrella_rot_s_8.jpg']",['cocktail_umbrella_rot_s_8.jpg'],0,0,pink,yellow,0.2,0
+blue,"['phone_antique_rot_s_1.jpg', 'phone_antique_rot_s_3.jpg', 'phone_antique_rot_s_7.jpg', 'phone_antique_rot_s_5.jpg', 'phone_antique_rot_s_9.jpg']",['phone_antique_rot_s_1.jpg'],0,3,yellow,blue,0.2,0
+green,"['phone_antique_rot_s_1.jpg', 'phone_antique_rot_s_3.jpg', 'phone_antique_rot_s_7.jpg', 'phone_antique_rot_s_5.jpg', 'phone_antique_rot_s_9.jpg']",['phone_antique_rot_s_3.jpg'],0,3,yellow,green,0.2,0
+purple,"['phone_antique_rot_s_1.jpg', 'phone_antique_rot_s_3.jpg', 'phone_antique_rot_s_7.jpg', 'phone_antique_rot_s_5.jpg', 'phone_antique_rot_s_9.jpg']",['phone_antique_rot_s_7.jpg'],0,4,pink,purple,0.2,0
+yellow,"['phone_antique_rot_s_1.jpg', 'phone_antique_rot_s_3.jpg', 'phone_antique_rot_s_7.jpg', 'phone_antique_rot_s_5.jpg', 'phone_antique_rot_s_9.jpg']",['phone_antique_rot_s_5.jpg'],0,3,yellow,yellow,0.2,1
+pink,"['phone_antique_rot_s_1.jpg', 'phone_antique_rot_s_3.jpg', 'phone_antique_rot_s_7.jpg', 'phone_antique_rot_s_5.jpg', 'phone_antique_rot_s_9.jpg']",['phone_antique_rot_s_9.jpg'],0,4,pink,pink,0.2,1
+purple,"['jug_rot_s_3.jpg', 'jug_rot_s_1.jpg', 'jug_rot_s_5.jpg', 'jug_rot_s_9.jpg']",['jug_rot_s_3.jpg'],0,2,green,purple,0.25,0
+pink,"['jug_rot_s_3.jpg', 'jug_rot_s_1.jpg', 'jug_rot_s_5.jpg', 'jug_rot_s_9.jpg']",['jug_rot_s_1.jpg'],0,3,green,pink,0.25,0
+brown,"['briefcase_rot_s_9.jpg', 'briefcase_rot_s_1.jpg', 'briefcase_rot_s_3.jpg', 'briefcase_rot_s_7.jpg', 'briefcase_rot_s_5.jpg']",['briefcase_rot_s_1.jpg'],0,1,brown,brown,0.2,1
+pink,"['briefcase_rot_s_9.jpg', 'briefcase_rot_s_1.jpg', 'briefcase_rot_s_3.jpg', 'briefcase_rot_s_7.jpg', 'briefcase_rot_s_5.jpg']",['briefcase_rot_s_3.jpg'],0,4,blue,pink,0.2,0
+blue,"['briefcase_rot_s_9.jpg', 'briefcase_rot_s_1.jpg', 'briefcase_rot_s_3.jpg', 'briefcase_rot_s_7.jpg', 'briefcase_rot_s_5.jpg']",['briefcase_rot_s_5.jpg'],0,3,green,blue,0.2,0
+purple,"['chapstick_rot_s_7.jpg', 'chapstick_rot_s_5.jpg', 'chapstick_rot_s_1.jpg', 'chapstick_rot_s_3.jpg', 'chapstick_rot_s_9.jpg']",['chapstick_rot_s_7.jpg'],0,0,purple,purple,0.2,1
+yellow,"['chapstick_rot_s_7.jpg', 'chapstick_rot_s_5.jpg', 'chapstick_rot_s_1.jpg', 'chapstick_rot_s_3.jpg', 'chapstick_rot_s_9.jpg']",['chapstick_rot_s_5.jpg'],0,4,pink,yellow,0.2,0
+blue,"['chapstick_rot_s_7.jpg', 'chapstick_rot_s_5.jpg', 'chapstick_rot_s_1.jpg', 'chapstick_rot_s_3.jpg', 'chapstick_rot_s_9.jpg']",['chapstick_rot_s_1.jpg'],0,1,yellow,blue,0.2,0
+green,"['chapstick_rot_s_7.jpg', 'chapstick_rot_s_5.jpg', 'chapstick_rot_s_1.jpg', 'chapstick_rot_s_3.jpg', 'chapstick_rot_s_9.jpg']",['chapstick_rot_s_3.jpg'],0,1,yellow,green,0.2,0
+pink,"['chapstick_rot_s_7.jpg', 'chapstick_rot_s_5.jpg', 'chapstick_rot_s_1.jpg', 'chapstick_rot_s_3.jpg', 'chapstick_rot_s_9.jpg']",['chapstick_rot_s_9.jpg'],0,0,purple,pink,0.2,0
+green,"['measuring_spoons_rot_s_7.jpg', 'measuring_spoons_rot_s_5.jpg', 'measuring_spoons_rot_s_3.jpg', 'measuring_spoons_rot_s_9.jpg']",['measuring_spoons_rot_s_7.jpg'],0,0,green,green,0.25,1
+purple,"['measuring_spoons_rot_s_7.jpg', 'measuring_spoons_rot_s_5.jpg', 'measuring_spoons_rot_s_3.jpg', 'measuring_spoons_rot_s_9.jpg']",['measuring_spoons_rot_s_5.jpg'],0,0,green,purple,0.25,0
+red,"['measuring_spoons_rot_s_7.jpg', 'measuring_spoons_rot_s_5.jpg', 'measuring_spoons_rot_s_3.jpg', 'measuring_spoons_rot_s_9.jpg']",['measuring_spoons_rot_s_3.jpg'],0,0,green,red,0.25,0
+blue,"['measuring_spoons_rot_s_7.jpg', 'measuring_spoons_rot_s_5.jpg', 'measuring_spoons_rot_s_3.jpg', 'measuring_spoons_rot_s_9.jpg']",['measuring_spoons_rot_s_9.jpg'],0,0,green,blue,0.25,0
+purple,"['pitcher_rot_s_6.jpg', 'pitcher_rot_s_10.jpg', 'pitcher_rot_s_2.jpg', 'pitcher_rot_s_8.jpg']",['pitcher_rot_s_6.jpg'],0,1,blue,purple,0.25,0
+blue,"['pitcher_rot_s_6.jpg', 'pitcher_rot_s_10.jpg', 'pitcher_rot_s_2.jpg', 'pitcher_rot_s_8.jpg']",['pitcher_rot_s_10.jpg'],0,3,green,blue,0.25,0
+brown,"['tennis_racket_rot_s_2.jpg', 'tennis_racket_rot_s_6.jpg', 'tennis_racket_rot_s_4.jpg', 'tennis_racket_rot_s_10.jpg', 'tennis_racket_rot_s_8.jpg']",['tennis_racket_rot_s_2.jpg'],0,0,brown,brown,0.2,1
+blue,"['tennis_racket_rot_s_2.jpg', 'tennis_racket_rot_s_6.jpg', 'tennis_racket_rot_s_4.jpg', 'tennis_racket_rot_s_10.jpg', 'tennis_racket_rot_s_8.jpg']",['tennis_racket_rot_s_6.jpg'],0,0,brown,blue,0.2,0
+pink,"['tennis_racket_rot_s_2.jpg', 'tennis_racket_rot_s_6.jpg', 'tennis_racket_rot_s_4.jpg', 'tennis_racket_rot_s_10.jpg', 'tennis_racket_rot_s_8.jpg']",['tennis_racket_rot_s_4.jpg'],0,4,green,pink,0.2,0
+green,"['packingtape_rot_s_2.jpg', 'packingtape_rot_s_6.jpg', 'packingtape_rot_s_4.jpg', 'packingtape_rot_s_8.jpg']",['packingtape_rot_s_2.jpg'],0,1,pink,green,0.25,0
+pink,"['packingtape_rot_s_2.jpg', 'packingtape_rot_s_6.jpg', 'packingtape_rot_s_4.jpg', 'packingtape_rot_s_8.jpg']",['packingtape_rot_s_6.jpg'],0,3,blue,pink,0.25,0
+yellow,"['packingtape_rot_s_2.jpg', 'packingtape_rot_s_6.jpg', 'packingtape_rot_s_4.jpg', 'packingtape_rot_s_8.jpg']",['packingtape_rot_s_4.jpg'],0,3,blue,yellow,0.25,0
+blue,"['packingtape_rot_s_2.jpg', 'packingtape_rot_s_6.jpg', 'packingtape_rot_s_4.jpg', 'packingtape_rot_s_8.jpg']",['packingtape_rot_s_8.jpg'],0,3,blue,blue,0.25,1
+blue,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_2.jpg'],0,0,blue,blue,0.2,1
+yellow,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_6.jpg'],0,3,purple,yellow,0.2,0
+green,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_4.jpg'],0,2,green,green,0.2,1
+purple,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_8.jpg'],0,0,blue,purple,0.2,0
+pink,"['chair_recliner_rot_s_2.jpg', 'chair_recliner_rot_s_6.jpg', 'chair_recliner_rot_s_4.jpg', 'chair_recliner_rot_s_8.jpg', 'chair_recliner_rot_s_10.jpg']",['chair_recliner_rot_s_10.jpg'],0,3,purple,pink,0.2,0
+blue,"['phone_antique_rot_s_2.jpg', 'phone_antique_rot_s_6.jpg', 'phone_antique_rot_s_4.jpg', 'phone_antique_rot_s_8.jpg', 'phone_antique_rot_s_10.jpg']",['phone_antique_rot_s_2.jpg'],0,3,purple,blue,0.2,0
+yellow,"['phone_antique_rot_s_2.jpg', 'phone_antique_rot_s_6.jpg', 'phone_antique_rot_s_4.jpg', 'phone_antique_rot_s_8.jpg', 'phone_antique_rot_s_10.jpg']",['phone_antique_rot_s_6.jpg'],0,3,purple,yellow,0.2,0
+green,"['phone_antique_rot_s_2.jpg', 'phone_antique_rot_s_6.jpg', 'phone_antique_rot_s_4.jpg', 'phone_antique_rot_s_8.jpg', 'phone_antique_rot_s_10.jpg']",['phone_antique_rot_s_4.jpg'],0,4,pink,green,0.2,0
+purple,"['phone_antique_rot_s_2.jpg', 'phone_antique_rot_s_6.jpg', 'phone_antique_rot_s_4.jpg', 'phone_antique_rot_s_8.jpg', 'phone_antique_rot_s_10.jpg']",['phone_antique_rot_s_8.jpg'],0,3,purple,purple,0.2,1
+pink,"['phone_antique_rot_s_2.jpg', 'phone_antique_rot_s_6.jpg', 'phone_antique_rot_s_4.jpg', 'phone_antique_rot_s_8.jpg', 'phone_antique_rot_s_10.jpg']",['phone_antique_rot_s_10.jpg'],0,4,pink,pink,0.2,1
+brown,"['fakeapple_rot_s_9.jpg', 'fakeapple_rot_s_3.jpg', 'fakeapple_rot_s_1.jpg', 'fakeapple_rot_s_5.jpg', 'fakeapple_rot_s_7.jpg']",['fakeapple_rot_s_9.jpg'],0,3,green,brown,0.2,0
+green,"['fakeapple_rot_s_9.jpg', 'fakeapple_rot_s_3.jpg', 'fakeapple_rot_s_1.jpg', 'fakeapple_rot_s_5.jpg', 'fakeapple_rot_s_7.jpg']",['fakeapple_rot_s_5.jpg'],0,3,green,green,0.2,1
+pink,"['fakeapple_rot_s_9.jpg', 'fakeapple_rot_s_3.jpg', 'fakeapple_rot_s_1.jpg', 'fakeapple_rot_s_5.jpg', 'fakeapple_rot_s_7.jpg']",['fakeapple_rot_s_7.jpg'],0,4,pink,pink,0.2,1
+purple,"['box_hat_rot_s_8.jpg', 'box_hat_rot_s_6.jpg', 'box_hat_rot_s_10.jpg', 'box_hat_rot_s_4.jpg', 'box_hat_rot_s_2.jpg']",['box_hat_rot_s_6.jpg'],0,4,green,purple,0.2,0
+blue,"['box_hat_rot_s_8.jpg', 'box_hat_rot_s_6.jpg', 'box_hat_rot_s_10.jpg', 'box_hat_rot_s_4.jpg', 'box_hat_rot_s_2.jpg']",['box_hat_rot_s_10.jpg'],0,0,green,blue,0.2,0
+brown,"['box_hat_rot_s_8.jpg', 'box_hat_rot_s_6.jpg', 'box_hat_rot_s_10.jpg', 'box_hat_rot_s_4.jpg', 'box_hat_rot_s_2.jpg']",['box_hat_rot_s_4.jpg'],0,4,green,brown,0.2,0
+blue,"['box_hat_rot_s_9.jpg', 'box_hat_rot_s_7.jpg', 'box_hat_rot_s_5.jpg', 'box_hat_rot_s_1.jpg', 'box_hat_rot_s_3.jpg']",['box_hat_rot_s_9.jpg'],0,1,green,blue,0.2,0
+purple,"['box_hat_rot_s_9.jpg', 'box_hat_rot_s_7.jpg', 'box_hat_rot_s_5.jpg', 'box_hat_rot_s_1.jpg', 'box_hat_rot_s_3.jpg']",['box_hat_rot_s_5.jpg'],0,2,purple,purple,0.2,1
+brown,"['box_hat_rot_s_9.jpg', 'box_hat_rot_s_7.jpg', 'box_hat_rot_s_5.jpg', 'box_hat_rot_s_1.jpg', 'box_hat_rot_s_3.jpg']",['box_hat_rot_s_3.jpg'],0,0,blue,brown,0.2,0
+brown,"['fakeapple_rot_s_10.jpg', 'fakeapple_rot_s_2.jpg', 'fakeapple_rot_s_4.jpg', 'fakeapple_rot_s_6.jpg']",['fakeapple_rot_s_10.jpg'],0,0,brown,brown,0.25,1
+green,"['fakeapple_rot_s_10.jpg', 'fakeapple_rot_s_2.jpg', 'fakeapple_rot_s_4.jpg', 'fakeapple_rot_s_6.jpg']",['fakeapple_rot_s_6.jpg'],0,1,blue,green,0.25,0
+red,"['holy_vase_rot_s_8.jpg', 'holy_vase_rot_s_4.jpg', 'holy_vase_rot_s_6.jpg', 'holy_vase_rot_s_2.jpg', 'holy_vase_rot_s_10.jpg']",['holy_vase_rot_s_8.jpg'],0,2,green,red,0.2,0
+blue,"['holy_vase_rot_s_8.jpg', 'holy_vase_rot_s_4.jpg', 'holy_vase_rot_s_6.jpg', 'holy_vase_rot_s_2.jpg', 'holy_vase_rot_s_10.jpg']",['holy_vase_rot_s_4.jpg'],0,2,green,blue,0.2,0
+green,"['holy_vase_rot_s_8.jpg', 'holy_vase_rot_s_4.jpg', 'holy_vase_rot_s_6.jpg', 'holy_vase_rot_s_2.jpg', 'holy_vase_rot_s_10.jpg']",['holy_vase_rot_s_6.jpg'],0,2,green,green,0.2,1
+purple,"['holy_vase_rot_s_8.jpg', 'holy_vase_rot_s_4.jpg', 'holy_vase_rot_s_6.jpg', 'holy_vase_rot_s_2.jpg', 'holy_vase_rot_s_10.jpg']",['holy_vase_rot_s_2.jpg'],0,2,green,purple,0.2,0
+yellow,"['holy_vase_rot_s_8.jpg', 'holy_vase_rot_s_4.jpg', 'holy_vase_rot_s_6.jpg', 'holy_vase_rot_s_2.jpg', 'holy_vase_rot_s_10.jpg']",['holy_vase_rot_s_10.jpg'],0,2,green,yellow,0.2,0
+purple,"['jacket_rot_s_9.jpg', 'jacket_rot_s_5.jpg', 'jacket_rot_s_3.jpg', 'jacket_rot_s_1.jpg']",['jacket_rot_s_3.jpg'],0,3,pink,purple,0.25,0
+pink,"['jacket_rot_s_9.jpg', 'jacket_rot_s_5.jpg', 'jacket_rot_s_3.jpg', 'jacket_rot_s_1.jpg']",['jacket_rot_s_1.jpg'],0,2,purple,pink,0.25,0
+blue,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_8.jpg'],0,1,green,blue,0.3333333333333333,0
+green,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_4.jpg'],0,1,green,green,0.3333333333333333,1
+pink,"['clamp_rot_s_8.jpg', 'clamp_rot_s_4.jpg', 'clamp_rot_s_10.jpg']",['clamp_rot_s_10.jpg'],0,1,green,pink,0.3333333333333333,0
+pink,"['clamp_rot_s_9.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_9.jpg'],0,2,green,pink,0.3333333333333333,0
+blue,"['clamp_rot_s_9.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_7.jpg'],0,2,green,blue,0.3333333333333333,0
+green,"['clamp_rot_s_9.jpg', 'clamp_rot_s_7.jpg', 'clamp_rot_s_3.jpg']",['clamp_rot_s_3.jpg'],0,2,green,green,0.3333333333333333,1
+blue,"['umbrella_rot_s_9.jpg', 'umbrella_rot_s_7.jpg', 'umbrella_rot_s_3.jpg', 'umbrella_rot_s_1.jpg']",['umbrella_rot_s_9.jpg'],0,0,blue,blue,0.25,1
+yellow,"['umbrella_rot_s_9.jpg', 'umbrella_rot_s_7.jpg', 'umbrella_rot_s_3.jpg', 'umbrella_rot_s_1.jpg']",['umbrella_rot_s_3.jpg'],0,3,green,yellow,0.25,0
+yellow,"['holy_vase_rot_s_9.jpg', 'holy_vase_rot_s_5.jpg', 'holy_vase_rot_s_7.jpg', 'holy_vase_rot_s_3.jpg', 'holy_vase_rot_s_1.jpg']",['holy_vase_rot_s_9.jpg'],0,0,yellow,yellow,0.2,1
+green,"['holy_vase_rot_s_9.jpg', 'holy_vase_rot_s_5.jpg', 'holy_vase_rot_s_7.jpg', 'holy_vase_rot_s_3.jpg', 'holy_vase_rot_s_1.jpg']",['holy_vase_rot_s_5.jpg'],0,0,yellow,green,0.2,0
+red,"['holy_vase_rot_s_9.jpg', 'holy_vase_rot_s_5.jpg', 'holy_vase_rot_s_7.jpg', 'holy_vase_rot_s_3.jpg', 'holy_vase_rot_s_1.jpg']",['holy_vase_rot_s_7.jpg'],0,1,green,red,0.2,0
+blue,"['holy_vase_rot_s_9.jpg', 'holy_vase_rot_s_5.jpg', 'holy_vase_rot_s_7.jpg', 'holy_vase_rot_s_3.jpg', 'holy_vase_rot_s_1.jpg']",['holy_vase_rot_s_3.jpg'],0,1,green,blue,0.2,0
+purple,"['holy_vase_rot_s_9.jpg', 'holy_vase_rot_s_5.jpg', 'holy_vase_rot_s_7.jpg', 'holy_vase_rot_s_3.jpg', 'holy_vase_rot_s_1.jpg']",['holy_vase_rot_s_1.jpg'],0,0,yellow,purple,0.2,0
+red,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_10.jpg'],0,2,green,red,0.25,0
+yellow,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_6.jpg'],0,2,green,yellow,0.25,0
+green,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_4.jpg'],0,2,green,green,0.25,1
+blue,"['watch_rot_s_10.jpg', 'watch_rot_s_6.jpg', 'watch_rot_s_4.jpg', 'watch_rot_s_2.jpg']",['watch_rot_s_2.jpg'],0,3,blue,blue,0.25,1
+red,"['usb_key_rot_s_10.jpg', 'usb_key_rot_s_4.jpg', 'usb_key_rot_s_2.jpg']",['usb_key_rot_s_10.jpg'],0,1,blue,red,0.3333333333333333,0
+green,"['accordion_rot_s_5.jpg', 'accordion_rot_s_7.jpg', 'accordion_rot_s_3.jpg', 'accordion_rot_s_1.jpg']",['accordion_rot_s_5.jpg'],0,0,green,green,0.25,1
+pink,"['accordion_rot_s_5.jpg', 'accordion_rot_s_7.jpg', 'accordion_rot_s_3.jpg', 'accordion_rot_s_1.jpg']",['accordion_rot_s_7.jpg'],0,2,blue,pink,0.25,0
+blue,"['accordion_rot_s_5.jpg', 'accordion_rot_s_7.jpg', 'accordion_rot_s_3.jpg', 'accordion_rot_s_1.jpg']",['accordion_rot_s_3.jpg'],0,3,purple,blue,0.25,0
+purple,"['accordion_rot_s_5.jpg', 'accordion_rot_s_7.jpg', 'accordion_rot_s_3.jpg', 'accordion_rot_s_1.jpg']",['accordion_rot_s_1.jpg'],0,3,purple,purple,0.25,1
+truck_rot_s_10.jpg,"['blue', 'purple', 'green', 'brown']",['blue'],1,0,blue,blue,0.25,1
+takeout_container_rot_s_6.jpg,"['green', 'blue', 'red', 'purple']",['green'],1,1,blue,green,0.25,0
+sugar_bowl_rot_s_9.jpg,"['blue', 'brown', 'pink', 'purple']",['blue'],1,0,blue,blue,0.25,1
+packingtape_rot_s_8.jpg,"['blue', 'pink', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+pitcher_rot_s_9.jpg,"['blue', 'pink', 'yellow', 'purple']",['blue'],1,0,blue,blue,0.25,1
+packingtape_rot_s_7.jpg,"['blue', 'pink', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+extension_cord_s_8.jpg,"['blue', 'yellow', 'green', 'pink']",['blue'],1,0,blue,blue,0.25,1
+accordion_rot_s_3.jpg,"['blue', 'purple', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+measuring_spoons_rot_s_9.jpg,"['blue', 'brown', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+pitcher_rot_s_10.jpg,"['blue', 'green', 'red', 'pink']",['blue'],1,0,blue,blue,0.25,1
+umbrella_rot_s_9.jpg,"['blue', 'green', 'red', 'purple']",['blue'],1,0,blue,blue,0.25,1
+watch_rot_s_1.jpg,"['blue', 'green', 'purple', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+hand_puppet_rot_s_8.jpg,"['blue', 'purple', 'green', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+nailpolish_rot_s_5.jpg,"['blue', 'green', 'brown', 'red']",['blue'],1,0,blue,blue,0.25,1
+fakeapple_rot_s_1.jpg,"['blue', 'pink', 'red', 'green']",['blue'],1,0,blue,blue,0.25,1
+holy_vase_rot_s_4.jpg,"['blue', 'red', 'yellow', 'purple']",['blue'],1,0,blue,blue,0.25,1
+box_hat_rot_s_9.jpg,"['blue', 'brown', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+notebook_rot_s_8.jpg,"['blue', 'brown', 'green', 'red']",['blue'],1,0,blue,blue,0.25,1
+cocktail_umbrella_rot_s_6.jpg,"['blue', 'green', 'purple', 'brown']",['blue'],1,0,blue,blue,0.25,1
+sponge_rot_s_7.jpg,"['blue', 'yellow', 'green', 'brown']",['blue'],1,0,blue,blue,0.25,1
+razor_rot_s_5.jpg,"['blue', 'red', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+kettle_rot_s_9.jpg,"['blue', 'yellow', 'brown', 'green']",['blue'],1,0,blue,blue,0.25,1
+gloves_rot_s_2.jpg,"['blue', 'green', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+gift_box_rot_s_5.jpg,"['blue', 'pink', 'brown', 'green']",['blue'],1,0,blue,blue,0.25,1
+notebook_rot_s_7.jpg,"['blue', 'green', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+chair_rot_s_10.jpg,"['blue', 'pink', 'green', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+chapstick_rot_s_2.jpg,"['blue', 'green', 'red', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+fuel_tank_rot_s_7.jpg,"['blue', 'brown', 'pink', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+valve_rot_s_2.jpg,"['blue', 'yellow', 'green', 'pink']",['blue'],1,0,blue,blue,0.25,1
+chair_recliner_rot_s_2.jpg,"['blue', 'green', 'pink', 'brown']",['blue'],1,0,blue,blue,0.25,1
+truck_rot_s_7.jpg,"['blue', 'red', 'purple', 'pink']",['blue'],1,0,blue,blue,0.25,1
+fakeapple_rot_s_3.jpg,"['blue', 'red', 'purple', 'pink']",['blue'],1,0,blue,blue,0.25,1
+umbrella_rot_s_10.jpg,"['blue', 'red', 'purple', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+sponge_rot_s_8.jpg,"['blue', 'brown', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+gloves_rot_s_3.jpg,"['blue', 'red', 'yellow', 'brown']",['blue'],1,0,blue,blue,0.25,1
+lotion_rot_s_10.jpg,"['blue', 'purple', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+cardboard_rot_s_9.jpg,"['blue', 'purple', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+sugar_bowl_rot_s_10.jpg,"['blue', 'yellow', 'green', 'red']",['blue'],1,0,blue,blue,0.25,1
+usb_key_rot_s_2.jpg,"['blue', 'red', 'brown', 'purple']",['blue'],1,0,blue,blue,0.25,1
+notecards_rot_s_3.jpg,"['blue', 'pink', 'red', 'green']",['blue'],1,0,blue,blue,0.25,1
+scanner_rot_s_5.jpg,"['blue', 'pink', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+sugar_bowl_rot_s_7.jpg,"['blue', 'red', 'brown', 'green']",['blue'],1,0,blue,blue,0.25,1
+flask_rot_s_8.jpg,"['blue', 'yellow', 'pink', 'purple']",['blue'],1,0,blue,blue,0.25,1
+towel_rot_s_5.jpg,"['blue', 'brown', 'pink', 'purple']",['blue'],1,0,blue,blue,0.25,1
+chapstick_rot_s_1.jpg,"['blue', 'red', 'pink', 'green']",['blue'],1,0,blue,blue,0.25,1
+cardboard_rot_s_10.jpg,"['blue', 'brown', 'green', 'red']",['blue'],1,0,blue,blue,0.25,1
+cocktail_umbrella_rot_s_5.jpg,"['blue', 'red', 'pink', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+phone_antique_rot_s_2.jpg,"['blue', 'brown', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+tool_box_rot_s_3.jpg,"['blue', 'yellow', 'pink', 'green']",['blue'],1,0,blue,blue,0.25,1
+tennis_racket_rot_s_6.jpg,"['blue', 'red', 'brown', 'purple']",['blue'],1,0,blue,blue,0.25,1
+tool_box_rot_s_4.jpg,"['blue', 'purple', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+briefcase_rot_s_5.jpg,"['blue', 'pink', 'red', 'green']",['blue'],1,0,blue,blue,0.25,1
+sugar_bowl_rot_s_8.jpg,"['blue', 'brown', 'purple', 'red']",['blue'],1,0,blue,blue,0.25,1
+truck_rot_s_9.jpg,"['blue', 'green', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+fuel_tank_rot_s_8.jpg,"['blue', 'yellow', 'brown', 'pink']",['blue'],1,0,blue,blue,0.25,1
+razor_rot_s_6.jpg,"['blue', 'pink', 'green', 'purple']",['blue'],1,0,blue,blue,0.25,1
+nailpolish_rot_s_6.jpg,"['blue', 'red', 'pink', 'brown']",['blue'],1,0,blue,blue,0.25,1
+watch_rot_s_2.jpg,"['blue', 'yellow', 'purple', 'green']",['blue'],1,0,blue,blue,0.25,1
+clamp_rot_s_7.jpg,"['blue', 'pink', 'yellow', 'purple']",['blue'],1,0,blue,blue,0.25,1
+flask_rot_s_7.jpg,"['blue', 'red', 'green', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+fakeapple_rot_s_4.jpg,"['blue', 'brown', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+phone_antique_rot_s_1.jpg,"['blue', 'purple', 'pink', 'green']",['blue'],1,0,blue,blue,0.25,1
+truck_rot_s_8.jpg,"['blue', 'red', 'brown', 'green']",['blue'],1,0,blue,blue,0.25,1
+gloves_rot_s_1.jpg,"['blue', 'green', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+valve_rot_s_3.jpg,"['blue', 'pink', 'red', 'brown']",['blue'],1,0,blue,blue,0.25,1
+tissues_rot_s_3.jpg,"['blue', 'green', 'yellow', 'brown']",['blue'],1,0,blue,blue,0.25,1
+clamp_rot_s_8.jpg,"['blue', 'pink', 'purple', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+towel_rot_s_6.jpg,"['blue', 'purple', 'yellow', 'pink']",['blue'],1,0,blue,blue,0.25,1
+container_open_rot_s_5.jpg,"['blue', 'green', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+controlbox_rot_s_10.jpg,"['blue', 'brown', 'green', 'purple']",['blue'],1,0,blue,blue,0.25,1
+chair_recliner_rot_s_1.jpg,"['blue', 'purple', 'red', 'pink']",['blue'],1,0,blue,blue,0.25,1
+gloves_rot_s_4.jpg,"['blue', 'brown', 'yellow', 'red']",['blue'],1,0,blue,blue,0.25,1
+kettle_rot_s_10.jpg,"['blue', 'yellow', 'red', 'green']",['blue'],1,0,blue,blue,0.25,1
+usb_key_rot_s_3.jpg,"['blue', 'green', 'brown', 'pink']",['blue'],1,0,blue,blue,0.25,1
+container_open_rot_s_6.jpg,"['blue', 'green', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+valve_rot_s_4.jpg,"['blue', 'brown', 'pink', 'red']",['blue'],1,0,blue,blue,0.25,1
+handbag_rot_s_5.jpg,"['blue', 'red', 'pink', 'brown']",['blue'],1,0,blue,blue,0.25,1
+usb_key_rot_s_1.jpg,"['blue', 'purple', 'red', 'brown']",['blue'],1,0,blue,blue,0.25,1
+controlbox_rot_s_9.jpg,"['blue', 'red', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+holy_vase_rot_s_3.jpg,"['blue', 'red', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+handbag_rot_s_6.jpg,"['blue', 'green', 'red', 'purple']",['blue'],1,0,blue,blue,0.25,1
+pail_rot_s_10.jpg,"['blue', 'brown', 'red', 'green']",['blue'],1,0,blue,blue,0.25,1
+valve_rot_s_1.jpg,"['blue', 'purple', 'yellow', 'green']",['blue'],1,0,blue,blue,0.25,1
+briefcase_rot_s_6.jpg,"['blue', 'yellow', 'pink', 'green']",['blue'],1,0,blue,blue,0.25,1
+measuring_spoons_rot_s_10.jpg,"['blue', 'red', 'pink', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+lotion_rot_s_9.jpg,"['blue', 'brown', 'green', 'red']",['blue'],1,0,blue,blue,0.25,1
+tennis_racket_rot_s_5.jpg,"['blue', 'pink', 'purple', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+usb_key_rot_s_4.jpg,"['blue', 'purple', 'brown', 'yellow']",['blue'],1,0,blue,blue,0.25,1
+gift_box_rot_s_6.jpg,"['blue', 'pink', 'yellow', 'purple']",['blue'],1,0,blue,blue,0.25,1
+pail_rot_s_9.jpg,"['blue', 'pink', 'yellow', 'green']",['blue'],1,0,blue,blue,0.25,1
+hand_puppet_rot_s_7.jpg,"['blue', 'green', 'yellow', 'brown']",['blue'],1,0,blue,blue,0.25,1
+scanner_rot_s_6.jpg,"['blue', 'yellow', 'brown', 'green']",['blue'],1,0,blue,blue,0.25,1
+box_hat_rot_s_10.jpg,"['blue', 'yellow', 'red', 'pink']",['blue'],1,0,blue,blue,0.25,1
+tissues_rot_s_4.jpg,"['blue', 'yellow', 'pink', 'green']",['blue'],1,0,blue,blue,0.25,1
+fakeapple_rot_s_2.jpg,"['blue', 'red', 'pink', 'brown']",['blue'],1,0,blue,blue,0.25,1
+takeout_container_rot_s_5.jpg,"['green', 'brown', 'blue', 'purple']",['green'],1,2,blue,green,0.25,0
+notecards_rot_s_4.jpg,"['blue', 'green', 'yellow', 'brown']",['blue'],1,0,blue,blue,0.25,1
+notebook_rot_s_5.jpg,"['red', 'brown', 'green', 'purple']",['red'],1,3,purple,red,0.25,0
+sponge_rot_s_5.jpg,"['red', 'brown', 'pink', 'green']",['red'],1,0,red,red,0.25,1
+chair_rot_s_4.jpg,"['red', 'green', 'blue', 'purple']",['red'],1,2,blue,red,0.25,0
+lotion_rot_s_4.jpg,"['red', 'yellow', 'pink', 'blue']",['red'],1,3,blue,red,0.25,0
+scanner_rot_s_2.jpg,"['red', 'yellow', 'pink', 'purple']",['red'],1,3,purple,red,0.25,0
+fuel_tank_rot_s_5.jpg,"['red', 'green', 'brown', 'blue']",['red'],1,3,blue,red,0.25,0
+razor_rot_s_1.jpg,"['red', 'blue', 'pink', 'green']",['red'],1,1,blue,red,0.25,0
+extension_cord_rot_s_7.jpg,"['red', 'brown', 'green', 'purple']",['red'],1,3,purple,red,0.25,0
+holy_vase_rot_s_7.jpg,"['red', 'yellow', 'pink', 'green']",['red'],1,0,red,red,0.25,1
+measuring_spoons_rot_s_4.jpg,"['red', 'green', 'pink', 'yellow']",['red'],1,0,red,red,0.25,1
+tool_box_rot_s_7.jpg,"['red', 'green', 'brown', 'blue']",['red'],1,3,blue,red,0.25,0
+chapstick_rot_s_10.jpg,"['pink', 'green', 'purple', 'red']",['pink'],1,2,purple,pink,0.25,0
+razor_rot_s_2.jpg,"['red', 'brown', 'yellow', 'blue']",['red'],1,3,blue,red,0.25,0
+kettle_rot_s_4.jpg,"['red', 'yellow', 'purple', 'blue']",['red'],1,3,blue,red,0.25,0
+tool_box_rot_s_8.jpg,"['red', 'brown', 'green', 'blue']",['red'],1,3,blue,red,0.25,0
+usb_key_rot_s_10.jpg,"['red', 'purple', 'brown', 'blue']",['red'],1,3,blue,red,0.25,0
+accordion_rot_s_8.jpg,"['red', 'yellow', 'pink', 'green']",['red'],1,0,red,red,0.25,1
+sponge_rot_s_6.jpg,"['red', 'pink', 'yellow', 'blue']",['red'],1,3,blue,red,0.25,0
+tennis_racket_rot_s_3.jpg,"['pink', 'green', 'yellow', 'brown']",['pink'],1,2,yellow,pink,0.25,0
+holy_vase_rot_s_8.jpg,"['red', 'green', 'yellow', 'blue']",['red'],1,3,blue,red,0.25,0
+notebook_rot_s_6.jpg,"['red', 'blue', 'pink', 'green']",['red'],1,1,blue,red,0.25,0
+measuring_spoons_rot_s_3.jpg,"['red', 'yellow', 'purple', 'blue']",['red'],1,3,blue,red,0.25,0
+kettle_rot_s_3.jpg,"['red', 'yellow', 'blue', 'purple']",['red'],1,2,blue,red,0.25,0
+scanner_rot_s_1.jpg,"['red', 'brown', 'yellow', 'green']",['red'],1,0,red,red,0.25,1
+notecards_rot_s_8.jpg,"['red', 'brown', 'yellow', 'pink']",['red'],1,0,red,red,0.25,1
+watch_rot_s_9.jpg,"['red', 'green', 'yellow', 'pink']",['red'],1,0,red,red,0.25,1
+fuel_tank_rot_s_6.jpg,"['red', 'green', 'yellow', 'blue']",['red'],1,3,blue,red,0.25,0
+lotion_rot_s_3.jpg,"['red', 'brown', 'green', 'yellow']",['red'],1,0,red,red,0.25,1
+usb_key_rot_s_9.jpg,"['red', 'brown', 'pink', 'yellow']",['red'],1,0,red,red,0.25,1
+watch_rot_s_10.jpg,"['red', 'brown', 'blue', 'purple']",['red'],1,2,blue,red,0.25,0
+gift_box_rot_s_2.jpg,"['brown', 'green', 'blue', 'red']",['brown'],1,2,blue,brown,0.25,0
+tennis_racket_rot_s_4.jpg,"['pink', 'brown', 'purple', 'blue']",['pink'],1,3,blue,pink,0.25,0
+chapstick_rot_s_9.jpg,"['pink', 'yellow', 'green', 'blue']",['pink'],1,3,blue,pink,0.25,0
+handbag_rot_s_1.jpg,"['red', 'blue', 'brown', 'yellow']",['red'],1,1,blue,red,0.25,0
+gloves_rot_s_10.jpg,"['brown', 'purple', 'yellow', 'blue']",['brown'],1,3,blue,brown,0.25,0
+container_open_rot_s_2.jpg,"['pink', 'blue', 'red', 'purple']",['pink'],1,1,blue,pink,0.25,0
+phone_antique_rot_s_9.jpg,"['pink', 'blue', 'red', 'brown']",['pink'],1,1,blue,pink,0.25,0
+handbag_rot_s_2.jpg,"['red', 'brown', 'pink', 'blue']",['red'],1,3,blue,red,0.25,0
+phone_antique_rot_s_10.jpg,"['pink', 'red', 'brown', 'yellow']",['pink'],1,1,red,pink,0.25,0
+gift_box_rot_s_1.jpg,"['brown', 'green', 'pink', 'yellow']",['brown'],1,3,yellow,brown,0.25,0
+phone_antique_rot_s_5.jpg,"['yellow', 'brown', 'purple', 'green']",['yellow'],1,2,purple,yellow,0.25,0
+nailpolish_rot_s_8.jpg,"['yellow', 'purple', 'pink', 'red']",['yellow'],1,1,purple,yellow,0.25,0
+packingtape_rot_s_3.jpg,"['yellow', 'red', 'green', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+tool_box_rot_s_10.jpg,"['yellow', 'blue', 'red', 'pink']",['yellow'],1,1,blue,yellow,0.25,0
+watch_rot_s_6.jpg,"['yellow', 'purple', 'blue', 'green']",['yellow'],1,2,blue,yellow,0.25,0
+umbrella_rot_s_2.jpg,"['green', 'pink', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+notecards_rot_s_10.jpg,"['yellow', 'red', 'blue', 'brown']",['yellow'],1,2,blue,yellow,0.25,0
+holy_vase_rot_s_10.jpg,"['yellow', 'red', 'purple', 'green']",['yellow'],1,2,purple,yellow,0.25,0
+truck_rot_s_4.jpg,"['yellow', 'purple', 'pink', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+theater_seats_rot_s_9.jpg,"['yellow', 'green', 'purple', 'red']",['yellow'],1,2,purple,yellow,0.25,0
+cardboard_rot_s_2.jpg,"['yellow', 'pink', 'red', 'purple']",['yellow'],1,3,purple,yellow,0.25,0
+holy_vase_rot_s_9.jpg,"['yellow', 'brown', 'purple', 'green']",['yellow'],1,2,purple,yellow,0.25,0
+container_open_rot_s_8.jpg,"['yellow', 'brown', 'green', 'red']",['yellow'],1,3,red,yellow,0.25,0
+takeout_container_rot_s_7.jpg,"['yellow', 'red', 'blue', 'pink']",['yellow'],1,2,blue,yellow,0.25,0
+umbrella_rot_s_4.jpg,"['yellow', 'purple', 'pink', 'green']",['yellow'],1,1,purple,yellow,0.25,0
+kettle_rot_s_1.jpg,"['yellow', 'purple', 'brown', 'pink']",['yellow'],1,1,purple,yellow,0.25,0
+watch_rot_s_5.jpg,"['yellow', 'brown', 'blue', 'red']",['yellow'],1,2,blue,yellow,0.25,0
+chair_rot_s_2.jpg,"['yellow', 'blue', 'purple', 'brown']",['yellow'],1,1,blue,yellow,0.25,0
+scanner_rot_s_8.jpg,"['yellow', 'green', 'red', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+chapstick_rot_s_6.jpg,"['yellow', 'green', 'brown', 'red']",['yellow'],1,3,red,yellow,0.25,0
+hand_puppet_rot_s_4.jpg,"['yellow', 'blue', 'green', 'brown']",['yellow'],1,1,blue,yellow,0.25,0
+packingtape_rot_s_4.jpg,"['yellow', 'purple', 'green', 'brown']",['yellow'],1,1,purple,yellow,0.25,0
+phone_antique_rot_s_6.jpg,"['yellow', 'blue', 'brown', 'green']",['yellow'],1,1,blue,yellow,0.25,0
+hand_puppet_rot_s_3.jpg,"['yellow', 'blue', 'brown', 'red']",['yellow'],1,1,blue,yellow,0.25,0
+truck_rot_s_3.jpg,"['yellow', 'red', 'blue', 'purple']",['yellow'],1,2,blue,yellow,0.25,0
+theater_seats_rot_s_10.jpg,"['yellow', 'brown', 'red', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+fuel_tank_rot_s_4.jpg,"['green', 'yellow', 'red', 'pink']",['green'],1,2,red,green,0.25,0
+notecards_rot_s_9.jpg,"['yellow', 'purple', 'green', 'pink']",['yellow'],1,1,purple,yellow,0.25,0
+lotion_rot_s_1.jpg,"['yellow', 'red', 'purple', 'brown']",['yellow'],1,2,purple,yellow,0.25,0
+cardboard_rot_s_1.jpg,"['yellow', 'brown', 'red', 'purple']",['yellow'],1,3,purple,yellow,0.25,0
+lotion_rot_s_2.jpg,"['yellow', 'blue', 'green', 'red']",['yellow'],1,1,blue,yellow,0.25,0
+cocktail_umbrella_rot_s_7.jpg,"['yellow', 'purple', 'brown', 'pink']",['yellow'],1,1,purple,yellow,0.25,0
+chapstick_rot_s_5.jpg,"['yellow', 'red', 'pink', 'brown']",['yellow'],1,1,red,yellow,0.25,0
+pail_rot_s_1.jpg,"['yellow', 'purple', 'blue', 'red']",['yellow'],1,2,blue,yellow,0.25,0
+scanner_rot_s_7.jpg,"['yellow', 'pink', 'green', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+accordion_rot_s_10.jpg,"['yellow', 'green', 'red', 'purple']",['yellow'],1,3,purple,yellow,0.25,0
+chair_recliner_rot_s_6.jpg,"['yellow', 'brown', 'red', 'pink']",['yellow'],1,2,red,yellow,0.25,0
+kettle_rot_s_2.jpg,"['yellow', 'blue', 'red', 'purple']",['yellow'],1,1,blue,yellow,0.25,0
+handbag_rot_s_7.jpg,"['yellow', 'pink', 'purple', 'red']",['yellow'],1,2,purple,yellow,0.25,0
+fuel_tank_rot_s_3.jpg,"['green', 'blue', 'purple', 'pink']",['green'],1,1,blue,green,0.25,0
+nailpolish_rot_s_7.jpg,"['yellow', 'red', 'blue', 'green']",['yellow'],1,2,blue,yellow,0.25,0
+handbag_rot_s_8.jpg,"['yellow', 'purple', 'red', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+chair_recliner_rot_s_5.jpg,"['yellow', 'red', 'blue', 'purple']",['yellow'],1,2,blue,yellow,0.25,0
+extension_cord_rot_s_9.jpg,"['green', 'pink', 'yellow', 'purple']",['green'],1,3,purple,green,0.25,0
+tool_box_rot_s_9.jpg,"['yellow', 'blue', 'green', 'pink']",['yellow'],1,1,blue,yellow,0.25,0
+container_open_rot_s_7.jpg,"['yellow', 'pink', 'blue', 'red']",['yellow'],1,2,blue,yellow,0.25,0
+umbrella_rot_s_3.jpg,"['yellow', 'blue', 'brown', 'pink']",['yellow'],1,1,blue,yellow,0.25,0
+jacket_rot_s_9.jpg,"['green', 'blue', 'red', 'pink']",['green'],1,1,blue,green,0.25,0
+cocktail_umbrella_rot_s_8.jpg,"['yellow', 'red', 'brown', 'blue']",['yellow'],1,3,blue,yellow,0.25,0
+umbrella_rot_s_1.jpg,"['green', 'brown', 'yellow', 'blue']",['green'],1,3,blue,green,0.25,0
+jacket_rot_s_10.jpg,"['green', 'brown', 'red', 'pink']",['green'],1,2,red,green,0.25,0
+takeout_container_rot_s_8.jpg,"['yellow', 'brown', 'purple', 'red']",['yellow'],1,2,purple,yellow,0.25,0
+tennis_racket_rot_s_7.jpg,"['green', 'yellow', 'red', 'brown']",['green'],1,2,red,green,0.25,0
+flask_rot_s_4.jpg,"['green', 'brown', 'purple', 'yellow']",['green'],1,2,purple,green,0.25,0
+valve_rot_s_6.jpg,"['green', 'red', 'pink', 'brown']",['green'],1,1,red,green,0.25,0
+chair_rot_s_8.jpg,"['green', 'purple', 'brown', 'yellow']",['green'],1,1,purple,green,0.25,0
+accordion_rot_s_6.jpg,"['green', 'pink', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+takeout_container_rot_s_10.jpg,"['green', 'blue', 'red', 'brown']",['green'],1,1,blue,green,0.25,0
+towel_rot_s_7.jpg,"['green', 'pink', 'purple', 'red']",['green'],1,2,purple,green,0.25,0
+gloves_rot_s_5.jpg,"['green', 'yellow', 'brown', 'pink']",['green'],1,1,yellow,green,0.25,0
+measuring_spoons_rot_s_8.jpg,"['green', 'brown', 'yellow', 'red']",['green'],1,3,red,green,0.25,0
+tennis_racket_rot_s_8.jpg,"['green', 'brown', 'yellow', 'blue']",['green'],1,3,blue,green,0.25,0
+phone_antique_rot_s_4.jpg,"['green', 'yellow', 'purple', 'red']",['green'],1,2,purple,green,0.25,0
+holy_vase_rot_s_5.jpg,"['green', 'blue', 'red', 'purple']",['green'],1,1,blue,green,0.25,0
+umbrella_rot_s_8.jpg,"['green', 'blue', 'purple', 'red']",['green'],1,1,blue,green,0.25,0
+handbag_rot_s_10.jpg,"['green', 'red', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+towel_rot_s_9.jpg,"['green', 'blue', 'yellow', 'brown']",['green'],1,1,blue,green,0.25,0
+kettle_rot_s_8.jpg,"['green', 'brown', 'purple', 'yellow']",['green'],1,2,purple,green,0.25,0
+truck_rot_s_2.jpg,"['green', 'brown', 'pink', 'purple']",['green'],1,3,purple,green,0.25,0
+hand_puppet_rot_s_2.jpg,"['green', 'red', 'blue', 'yellow']",['green'],1,2,blue,green,0.25,0
+handbag_rot_s_9.jpg,"['green', 'purple', 'red', 'brown']",['green'],1,1,purple,green,0.25,0
+packingtape_rot_s_1.jpg,"['green', 'red', 'blue', 'pink']",['green'],1,2,blue,green,0.25,0
+packingtape_rot_s_2.jpg,"['green', 'yellow', 'blue', 'red']",['green'],1,2,blue,green,0.25,0
+controlbox_rot_s_8.jpg,"['green', 'purple', 'yellow', 'pink']",['green'],1,1,purple,green,0.25,0
+chair_recliner_rot_s_4.jpg,"['green', 'blue', 'yellow', 'red']",['green'],1,1,blue,green,0.25,0
+hand_puppet_rot_s_1.jpg,"['green', 'brown', 'pink', 'red']",['green'],1,3,red,green,0.25,0
+box_hat_rot_s_1.jpg,"['green', 'pink', 'brown', 'blue']",['green'],1,3,blue,green,0.25,0
+sugar_bowl_rot_s_1.jpg,"['green', 'yellow', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+accordion_rot_s_5.jpg,"['green', 'blue', 'brown', 'yellow']",['green'],1,1,blue,green,0.25,0
+tape_dispenser_rot_s_5.jpg,"['green', 'yellow', 'purple', 'brown']",['green'],1,2,purple,green,0.25,0
+extension_cord_rot_s_5.jpg,"['green', 'purple', 'brown', 'red']",['green'],1,1,purple,green,0.25,0
+pail_rot_s_7.jpg,"['green', 'purple', 'yellow', 'red']",['green'],1,1,purple,green,0.25,0
+theater_seats_rot_s_6.jpg,"['green', 'red', 'pink', 'blue']",['green'],1,3,blue,green,0.25,0
+tool_box_rot_s_6.jpg,"['green', 'pink', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+towel_rot_s_8.jpg,"['green', 'red', 'brown', 'blue']",['green'],1,3,blue,green,0.25,0
+fakeapple_rot_s_6.jpg,"['green', 'red', 'yellow', 'pink']",['green'],1,1,red,green,0.25,0
+lotion_rot_s_8.jpg,"['green', 'yellow', 'purple', 'pink']",['green'],1,2,purple,green,0.25,0
+flask_rot_s_1.jpg,"['green', 'red', 'blue', 'pink']",['green'],1,2,blue,green,0.25,0
+extension_cord_s_4.jpg,"['green', 'yellow', 'brown', 'pink']",['green'],1,1,yellow,green,0.25,0
+pail_rot_s_8.jpg,"['green', 'pink', 'yellow', 'brown']",['green'],1,2,yellow,green,0.25,0
+jacket_rot_s_6.jpg,"['green', 'brown', 'yellow', 'purple']",['green'],1,3,purple,green,0.25,0
+razor_rot_s_10.jpg,"['green', 'pink', 'blue', 'purple']",['green'],1,2,blue,green,0.25,0
+takeout_container_rot_s_9.jpg,"['green', 'pink', 'brown', 'yellow']",['green'],1,3,yellow,green,0.25,0
+sugar_bowl_rot_s_2.jpg,"['green', 'blue', 'pink', 'purple']",['green'],1,1,blue,green,0.25,0
+container_open_rot_s_9.jpg,"['green', 'purple', 'blue', 'yellow']",['green'],1,2,blue,green,0.25,0
+umbrella_rot_s_7.jpg,"['green', 'pink', 'yellow', 'brown']",['green'],1,2,yellow,green,0.25,0
+cardboard_rot_s_8.jpg,"['green', 'red', 'yellow', 'pink']",['green'],1,1,red,green,0.25,0
+pitcher_rot_s_1.jpg,"['green', 'blue', 'yellow', 'brown']",['green'],1,1,blue,green,0.25,0
+theater_seats_rot_s_5.jpg,"['green', 'blue', 'red', 'pink']",['green'],1,1,blue,green,0.25,0
+briefcase_rot_s_7.jpg,"['green', 'blue', 'red', 'yellow']",['green'],1,1,blue,green,0.25,0
+razor_rot_s_9.jpg,"['green', 'brown', 'pink', 'red']",['green'],1,3,red,green,0.25,0
+sponge_rot_s_4.jpg,"['green', 'brown', 'blue', 'pink']",['green'],1,2,blue,green,0.25,0
+gift_box_rot_s_10.jpg,"['green', 'pink', 'purple', 'red']",['green'],1,2,purple,green,0.25,0
+nailpolish_rot_s_9.jpg,"['green', 'pink', 'purple', 'yellow']",['green'],1,2,purple,green,0.25,0
+briefcase_rot_s_10.jpg,"['green', 'purple', 'red', 'yellow']",['green'],1,1,purple,green,0.25,0
+tape_dispenser_rot_s_6.jpg,"['green', 'yellow', 'pink', 'brown']",['green'],1,1,yellow,green,0.25,0
+container_open_rot_s_10.jpg,"['green', 'blue', 'pink', 'brown']",['green'],1,1,blue,green,0.25,0
+briefcase_rot_s_8.jpg,"['green', 'yellow', 'blue', 'purple']",['green'],1,2,blue,green,0.25,0
+pitcher_rot_s_8.jpg,"['green', 'yellow', 'red', 'blue']",['green'],1,3,blue,green,0.25,0
+cocktail_umbrella_rot_s_9.jpg,"['green', 'yellow', 'pink', 'red']",['green'],1,3,red,green,0.25,0
+extension_cord_s_2.jpg,"['green', 'pink', 'purple', 'brown']",['green'],1,2,purple,green,0.25,0
+measuring_spoons_rot_s_7.jpg,"['green', 'blue', 'purple', 'brown']",['green'],1,1,blue,green,0.25,0
+gift_box_rot_s_8.jpg,"['green', 'pink', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+phone_antique_rot_s_3.jpg,"['green', 'red', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+tennis_racket_rot_s_9.jpg,"['green', 'brown', 'yellow', 'blue']",['green'],1,3,blue,green,0.25,0
+jug_rot_s_6.jpg,"['green', 'blue', 'brown', 'yellow']",['green'],1,1,blue,green,0.25,0
+notebook_rot_s_2.jpg,"['green', 'brown', 'pink', 'yellow']",['green'],1,3,yellow,green,0.25,0
+tape_dispenser_rot_s_9.jpg,"['green', 'red', 'purple', 'blue']",['green'],1,3,blue,green,0.25,0
+chapstick_rot_s_3.jpg,"['green', 'pink', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+lotion_rot_s_7.jpg,"['green', 'pink', 'purple', 'yellow']",['green'],1,2,purple,green,0.25,0
+clamp_rot_s_4.jpg,"['green', 'red', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+notecards_rot_s_5.jpg,"['green', 'pink', 'yellow', 'purple']",['green'],1,3,purple,green,0.25,0
+nailpolish_rot_s_10.jpg,"['green', 'pink', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+box_hat_rot_s_8.jpg,"['green', 'pink', 'red', 'yellow']",['green'],1,2,red,green,0.25,0
+cardboard_rot_s_7.jpg,"['green', 'pink', 'red', 'yellow']",['green'],1,2,red,green,0.25,0
+watch_rot_s_4.jpg,"['green', 'brown', 'yellow', 'red']",['green'],1,3,red,green,0.25,0
+gift_box_rot_s_7.jpg,"['green', 'purple', 'pink', 'red']",['green'],1,1,purple,green,0.25,0
+notebook_rot_s_1.jpg,"['green', 'brown', 'red', 'purple']",['green'],1,3,purple,green,0.25,0
+scanner_rot_s_10.jpg,"['green', 'blue', 'yellow', 'pink']",['green'],1,1,blue,green,0.25,0
+pitcher_rot_s_2.jpg,"['green', 'purple', 'pink', 'brown']",['green'],1,1,purple,green,0.25,0
+notecards_rot_s_6.jpg,"['green', 'purple', 'blue', 'brown']",['green'],1,2,blue,green,0.25,0
+pitcher_rot_s_7.jpg,"['green', 'pink', 'red', 'yellow']",['green'],1,2,red,green,0.25,0
+briefcase_rot_s_9.jpg,"['green', 'red', 'purple', 'blue']",['green'],1,3,blue,green,0.25,0
+fuel_tank_rot_s_2.jpg,"['green', 'blue', 'yellow', 'purple']",['green'],1,1,blue,green,0.25,0
+flask_rot_s_3.jpg,"['green', 'yellow', 'purple', 'brown']",['green'],1,2,purple,green,0.25,0
+clamp_rot_s_3.jpg,"['green', 'purple', 'red', 'blue']",['green'],1,3,blue,green,0.25,0
+gloves_rot_s_6.jpg,"['green', 'pink', 'red', 'blue']",['green'],1,3,blue,green,0.25,0
+jug_rot_s_10.jpg,"['green', 'brown', 'yellow', 'purple']",['green'],1,3,purple,green,0.25,0
+holy_vase_rot_s_6.jpg,"['green', 'brown', 'pink', 'blue']",['green'],1,3,blue,green,0.25,0
+box_hat_rot_s_7.jpg,"['green', 'pink', 'brown', 'red']",['green'],1,3,red,green,0.25,0
+sponge_rot_s_1.jpg,"['green', 'blue', 'yellow', 'red']",['green'],1,1,blue,green,0.25,0
+controlbox_rot_s_7.jpg,"['green', 'brown', 'purple', 'pink']",['green'],1,2,purple,green,0.25,0
+chapstick_rot_s_4.jpg,"['green', 'yellow', 'red', 'brown']",['green'],1,2,red,green,0.25,0
+flask_rot_s_2.jpg,"['green', 'brown', 'yellow', 'purple']",['green'],1,3,purple,green,0.25,0
+tennis_racket_rot_s_10.jpg,"['green', 'pink', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+tool_box_rot_s_5.jpg,"['green', 'yellow', 'red', 'brown']",['green'],1,2,red,green,0.25,0
+chair_recliner_rot_s_3.jpg,"['green', 'red', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+jacket_rot_s_5.jpg,"['green', 'brown', 'red', 'blue']",['green'],1,3,blue,green,0.25,0
+jug_rot_s_9.jpg,"['green', 'red', 'purple', 'yellow']",['green'],1,2,purple,green,0.25,0
+cocktail_umbrella_rot_s_10.jpg,"['green', 'brown', 'blue', 'yellow']",['green'],1,2,blue,green,0.25,0
+kettle_rot_s_7.jpg,"['green', 'blue', 'red', 'yellow']",['green'],1,1,blue,green,0.25,0
+fakeapple_rot_s_5.jpg,"['green', 'yellow', 'red', 'purple']",['green'],1,3,purple,green,0.25,0
+gift_box_rot_s_9.jpg,"['green', 'red', 'brown', 'purple']",['green'],1,3,purple,green,0.25,0
+notebook_rot_s_3.jpg,"['green', 'pink', 'yellow', 'brown']",['green'],1,2,yellow,green,0.25,0
+sponge_rot_s_3.jpg,"['green', 'red', 'yellow', 'brown']",['green'],1,1,red,green,0.25,0
+towel_rot_s_10.jpg,"['green', 'pink', 'blue', 'red']",['green'],1,2,blue,green,0.25,0
+jug_rot_s_5.jpg,"['green', 'brown', 'red', 'blue']",['green'],1,3,blue,green,0.25,0
+scanner_rot_s_9.jpg,"['green', 'blue', 'purple', 'red']",['green'],1,1,blue,green,0.25,0
+truck_rot_s_1.jpg,"['green', 'blue', 'brown', 'purple']",['green'],1,1,blue,green,0.25,0
+fuel_tank_rot_s_1.jpg,"['green', 'blue', 'pink', 'purple']",['green'],1,1,blue,green,0.25,0
+notebook_rot_s_4.jpg,"['green', 'red', 'blue', 'purple']",['green'],1,2,blue,green,0.25,0
+sponge_rot_s_2.jpg,"['green', 'brown', 'purple', 'blue']",['green'],1,3,blue,green,0.25,0
+tape_dispenser_rot_s_10.jpg,"['green', 'purple', 'blue', 'pink']",['green'],1,2,blue,green,0.25,0
+box_hat_rot_s_2.jpg,"['green', 'red', 'pink', 'blue']",['green'],1,3,blue,green,0.25,0
+valve_rot_s_5.jpg,"['green', 'yellow', 'red', 'brown']",['green'],1,2,red,green,0.25,0
+fakeapple_rot_s_10.jpg,"['brown', 'yellow', 'purple', 'green']",['brown'],1,2,purple,brown,0.25,0
+tennis_racket_rot_s_2.jpg,"['brown', 'pink', 'blue', 'red']",['brown'],1,2,blue,brown,0.25,0
+flask_rot_s_6.jpg,"['brown', 'blue', 'yellow', 'purple']",['brown'],1,1,blue,brown,0.25,0
+briefcase_rot_s_1.jpg,"['brown', 'blue', 'yellow', 'green']",['brown'],1,1,blue,brown,0.25,0
+fakeapple_rot_s_9.jpg,"['brown', 'blue', 'red', 'purple']",['brown'],1,1,blue,brown,0.25,0
+box_hat_rot_s_3.jpg,"['brown', 'purple', 'green', 'pink']",['brown'],1,1,purple,brown,0.25,0
+cardboard_rot_s_3.jpg,"['brown', 'purple', 'pink', 'yellow']",['brown'],1,1,purple,brown,0.25,0
+tennis_racket_rot_s_1.jpg,"['brown', 'pink', 'blue', 'yellow']",['brown'],1,2,blue,brown,0.25,0
+towel_rot_s_1.jpg,"['brown', 'red', 'yellow', 'green']",['brown'],1,1,red,brown,0.25,0
+gloves_rot_s_9.jpg,"['brown', 'pink', 'red', 'purple']",['brown'],1,3,purple,brown,0.25,0
+controlbox_rot_s_3.jpg,"['brown', 'green', 'pink', 'purple']",['brown'],1,3,purple,brown,0.25,0
+towel_rot_s_2.jpg,"['brown', 'purple', 'pink', 'blue']",['brown'],1,3,blue,brown,0.25,0
+controlbox_rot_s_4.jpg,"['brown', 'yellow', 'pink', 'blue']",['brown'],1,3,blue,brown,0.25,0
+box_hat_rot_s_4.jpg,"['brown', 'red', 'pink', 'blue']",['brown'],1,3,blue,brown,0.25,0
+tape_dispenser_rot_s_8.jpg,"['brown', 'yellow', 'blue', 'green']",['brown'],1,2,blue,brown,0.25,0
+briefcase_rot_s_2.jpg,"['brown', 'pink', 'red', 'blue']",['brown'],1,3,blue,brown,0.25,0
+cardboard_rot_s_4.jpg,"['brown', 'pink', 'blue', 'red']",['brown'],1,2,blue,brown,0.25,0
+tape_dispenser_rot_s_7.jpg,"['brown', 'green', 'purple', 'pink']",['brown'],1,2,purple,brown,0.25,0
+clamp_rot_s_9.jpg,"['pink', 'brown', 'red', 'yellow']",['pink'],1,2,red,pink,0.25,0
+takeout_container_rot_s_2.jpg,"['pink', 'blue', 'green', 'red']",['pink'],1,1,blue,pink,0.25,0
+container_open_rot_s_3.jpg,"['pink', 'brown', 'purple', 'yellow']",['pink'],1,2,purple,pink,0.25,0
+chair_recliner_rot_s_10.jpg,"['pink', 'blue', 'yellow', 'red']",['pink'],1,1,blue,pink,0.25,0
+cocktail_umbrella_rot_s_1.jpg,"['pink', 'yellow', 'red', 'blue']",['pink'],1,3,blue,pink,0.25,0
+packingtape_rot_s_5.jpg,"['pink', 'yellow', 'green', 'red']",['pink'],1,3,red,pink,0.25,0
+gloves_rot_s_7.jpg,"['pink', 'yellow', 'brown', 'blue']",['pink'],1,3,blue,pink,0.25,0
+handbag_rot_s_3.jpg,"['pink', 'green', 'yellow', 'purple']",['pink'],1,3,purple,pink,0.25,0
+jug_rot_s_1.jpg,"['pink', 'red', 'purple', 'brown']",['pink'],1,2,purple,pink,0.25,0
+takeout_container_rot_s_1.jpg,"['pink', 'red', 'green', 'yellow']",['pink'],1,1,red,pink,0.25,0
+nailpolish_rot_s_1.jpg,"['pink', 'green', 'brown', 'red']",['pink'],1,3,red,pink,0.25,0
+packingtape_rot_s_6.jpg,"['pink', 'yellow', 'blue', 'green']",['pink'],1,2,blue,pink,0.25,0
+pail_rot_s_6.jpg,"['pink', 'brown', 'purple', 'yellow']",['pink'],1,2,purple,pink,0.25,0
+jug_rot_s_2.jpg,"['pink', 'purple', 'brown', 'red']",['pink'],1,1,purple,pink,0.25,0
+container_open_rot_s_1.jpg,"['pink', 'yellow', 'red', 'blue']",['pink'],1,3,blue,pink,0.25,0
+jacket_rot_s_1.jpg,"['pink', 'green', 'red', 'blue']",['pink'],1,3,blue,pink,0.25,0
+gloves_rot_s_8.jpg,"['pink', 'purple', 'green', 'red']",['pink'],1,1,purple,pink,0.25,0
+fakeapple_rot_s_7.jpg,"['pink', 'red', 'green', 'blue']",['pink'],1,3,blue,pink,0.25,0
+container_open_rot_s_4.jpg,"['pink', 'red', 'blue', 'brown']",['pink'],1,2,blue,pink,0.25,0
+hand_puppet_rot_s_5.jpg,"['pink', 'purple', 'yellow', 'brown']",['pink'],1,1,purple,pink,0.25,0
+theater_seats_rot_s_2.jpg,"['pink', 'green', 'red', 'yellow']",['pink'],1,2,red,pink,0.25,0
+cocktail_umbrella_rot_s_2.jpg,"['pink', 'blue', 'brown', 'green']",['pink'],1,1,blue,pink,0.25,0
+accordion_rot_s_7.jpg,"['pink', 'red', 'blue', 'yellow']",['pink'],1,2,blue,pink,0.25,0
+chair_recliner_rot_s_9.jpg,"['pink', 'brown', 'yellow', 'red']",['pink'],1,3,red,pink,0.25,0
+nailpolish_rot_s_2.jpg,"['pink', 'yellow', 'red', 'blue']",['pink'],1,3,blue,pink,0.25,0
+hand_puppet_rot_s_6.jpg,"['pink', 'brown', 'blue', 'purple']",['pink'],1,2,blue,pink,0.25,0
+briefcase_rot_s_3.jpg,"['pink', 'brown', 'green', 'blue']",['pink'],1,3,blue,pink,0.25,0
+clamp_rot_s_10.jpg,"['pink', 'yellow', 'blue', 'brown']",['pink'],1,2,blue,pink,0.25,0
+jacket_rot_s_2.jpg,"['pink', 'yellow', 'red', 'green']",['pink'],1,2,red,pink,0.25,0
+theater_seats_rot_s_1.jpg,"['pink', 'yellow', 'purple', 'red']",['pink'],1,2,purple,pink,0.25,0
+pail_rot_s_5.jpg,"['pink', 'yellow', 'blue', 'purple']",['pink'],1,2,blue,pink,0.25,0
+Scanner_rot_s_3.jpg,"['pink', 'blue', 'purple', 'brown']",['pink'],1,1,blue,pink,0.25,0
+controlbox_rot_s_5.jpg,"['purple', 'pink', 'brown', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+fuel_tank_rot_s_9.jpg,"['purple', 'green', 'pink', 'blue']",['purple'],1,3,blue,purple,0.25,0
+phone_antique_rot_s_8.jpg,"['purple', 'red', 'yellow', 'blue']",['purple'],1,3,blue,purple,0.25,0
+flask_rot_s_10.jpg,"['purple', 'yellow', 'pink', 'brown']",['purple'],1,0,purple,purple,0.25,1
+cocktail_umbrella_rot_s_3.jpg,"['purple', 'blue', 'brown', 'yellow']",['purple'],1,1,blue,purple,0.25,0
+tissues_rot_s_9.jpg,"['purple', 'pink', 'blue', 'green']",['purple'],1,2,blue,purple,0.25,0
+tool_box_rot_s_1.jpg,"['purple', 'brown', 'red', 'blue']",['purple'],1,3,blue,purple,0.25,0
+cocktail_umbrella_rot_s_4.jpg,"['purple', 'pink', 'yellow', 'blue']",['purple'],1,3,blue,purple,0.25,0
+chair_recliner_rot_s_8.jpg,"['purple', 'yellow', 'brown', 'red']",['purple'],1,0,purple,purple,0.25,1
+tissues_rot_s_8.jpg,"['purple', 'pink', 'brown', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+towel_rot_s_3.jpg,"['purple', 'pink', 'yellow', 'blue']",['purple'],1,3,blue,purple,0.25,0
+accordion_rot_s_4.jpg,"['purple', 'yellow', 'red', 'brown']",['purple'],1,0,purple,purple,0.25,1
+kettle_rot_s_6.jpg,"['purple', 'yellow', 'pink', 'green']",['purple'],1,0,purple,purple,0.25,1
+tape_dispenser_rot_s_1.jpg,"['purple', 'blue', 'pink', 'green']",['purple'],1,1,blue,purple,0.25,0
+jug_rot_s_4.jpg,"['purple', 'red', 'yellow', 'blue']",['purple'],1,3,blue,purple,0.25,0
+fuel_tank_rot_s_10.jpg,"['purple', 'blue', 'pink', 'green']",['purple'],1,1,blue,purple,0.25,0
+tape_dispenser_rot_s_2.jpg,"['purple', 'red', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+tool_box_rot_s_2.jpg,"['purple', 'red', 'pink', 'brown']",['purple'],1,0,purple,purple,0.25,1
+pitcher_rot_s_5.jpg,"['purple', 'green', 'brown', 'red']",['purple'],1,0,purple,purple,0.25,1
+controlbox_rot_s_6.jpg,"['purple', 'red', 'green', 'pink']",['purple'],1,0,purple,purple,0.25,1
+flask_rot_s_9.jpg,"['purple', 'yellow', 'brown', 'red']",['purple'],1,0,purple,purple,0.25,1
+chapstick_rot_s_8.jpg,"['purple', 'pink', 'yellow', 'brown']",['purple'],1,0,purple,purple,0.25,1
+sponge_rot_s_10.jpg,"['purple', 'brown', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+jacket_rot_s_3.jpg,"['purple', 'pink', 'blue', 'red']",['purple'],1,2,blue,purple,0.25,0
+holy_vase_rot_s_2.jpg,"['purple', 'brown', 'red', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+nailpolish_rot_s_4.jpg,"['purple', 'red', 'blue', 'green']",['purple'],1,2,blue,purple,0.25,0
+measuring_spoons_rot_s_6.jpg,"['purple', 'yellow', 'brown', 'blue']",['purple'],1,3,blue,purple,0.25,0
+accordion_rot_s_1.jpg,"['purple', 'green', 'blue', 'pink']",['purple'],1,2,blue,purple,0.25,0
+tape_dispenser_rot_s_3.jpg,"['purple', 'blue', 'yellow', 'green']",['purple'],1,1,blue,purple,0.25,0
+tape_dispenser_rot_s_4.jpg,"['purple', 'green', 'red', 'brown']",['purple'],1,0,purple,purple,0.25,1
+gift_box_rot_s_3.jpg,"['purple', 'brown', 'pink', 'green']",['purple'],1,0,purple,purple,0.25,1
+cardboard_rot_s_5.jpg,"['purple', 'red', 'brown', 'pink']",['purple'],1,0,purple,purple,0.25,1
+accordion_rot_s_2.jpg,"['purple', 'pink', 'green', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+scanner_rot_s_4.jpg,"['purple', 'blue', 'green', 'pink']",['purple'],1,1,blue,purple,0.25,0
+hand_puppet_rot_s_10.jpg,"['purple', 'green', 'brown', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+jug_rot_s_3.jpg,"['purple', 'red', 'brown', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+razor_rot_s_4.jpg,"['purple', 'yellow', 'green', 'pink']",['purple'],1,0,purple,purple,0.25,1
+extension_cord_s_10.jpg,"['purple', 'brown', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+takeout_container_rot_s_3.jpg,"['purple', 'yellow', 'blue', 'green']",['purple'],1,2,blue,purple,0.25,0
+chapstick_rot_s_7.jpg,"['purple', 'yellow', 'red', 'pink']",['purple'],1,0,purple,purple,0.25,1
+box_hat_rot_s_6.jpg,"['purple', 'yellow', 'green', 'red']",['purple'],1,0,purple,purple,0.25,1
+chair_recliner_rot_s_7.jpg,"['purple', 'pink', 'yellow', 'red']",['purple'],1,0,purple,purple,0.25,1
+cardboard_rot_s_6.jpg,"['purple', 'green', 'brown', 'blue']",['purple'],1,3,blue,purple,0.25,0
+razor_rot_s_3.jpg,"['purple', 'pink', 'blue', 'green']",['purple'],1,2,blue,purple,0.25,0
+pitcher_rot_s_6.jpg,"['purple', 'pink', 'blue', 'yellow']",['purple'],1,2,blue,purple,0.25,0
+jacket_rot_s_4.jpg,"['purple', 'yellow', 'blue', 'red']",['purple'],1,2,blue,purple,0.25,0
+kettle_rot_s_5.jpg,"['purple', 'blue', 'pink', 'green']",['purple'],1,1,blue,purple,0.25,0
+theater_seats_rot_s_3.jpg,"['purple', 'red', 'green', 'pink']",['purple'],1,0,purple,purple,0.25,1
+tissues_rot_s_7.jpg,"['purple', 'yellow', 'brown', 'pink']",['purple'],1,0,purple,purple,0.25,1
+notecards_rot_s_2.jpg,"['purple', 'red', 'brown', 'blue']",['purple'],1,3,blue,purple,0.25,0
+hand_puppet_rot_s_9.jpg,"['purple', 'green', 'red', 'brown']",['purple'],1,0,purple,purple,0.25,1
+extension_cord_rot_s_1.jpg,"['purple', 'red', 'brown', 'blue']",['purple'],1,3,blue,purple,0.25,0
+sponge_rot_s_9.jpg,"['purple', 'brown', 'yellow', 'pink']",['purple'],1,0,purple,purple,0.25,1
+gift_box_rot_s_4.jpg,"['purple', 'yellow', 'blue', 'red']",['purple'],1,2,blue,purple,0.25,0
+notebook_rot_s_10.jpg,"['purple', 'pink', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+chair_rot_s_6.jpg,"['purple', 'pink', 'yellow', 'green']",['purple'],1,0,purple,purple,0.25,1
+measuring_spoons_rot_s_5.jpg,"['purple', 'brown', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+theater_seats_rot_s_4.jpg,"['purple', 'yellow', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+nailpolish_rot_s_3.jpg,"['purple', 'pink', 'brown', 'blue']",['purple'],1,3,blue,purple,0.25,0
+lotion_rot_s_6.jpg,"['purple', 'pink', 'green', 'blue']",['purple'],1,3,blue,purple,0.25,0
+phone_antique_rot_s_7.jpg,"['purple', 'brown', 'yellow', 'green']",['purple'],1,0,purple,purple,0.25,1
+extension_cord_rot_s_3.jpg,"['purple', 'yellow', 'red', 'green']",['purple'],1,0,purple,purple,0.25,1
+notecards_rot_s_1.jpg,"['purple', 'brown', 'pink', 'blue']",['purple'],1,3,blue,purple,0.25,0
+notebook_rot_s_9.jpg,"['purple', 'yellow', 'blue', 'brown']",['purple'],1,2,blue,purple,0.25,0
+lotion_rot_s_5.jpg,"['purple', 'brown', 'red', 'yellow']",['purple'],1,0,purple,purple,0.25,1
+takeout_container_rot_s_4.jpg,"['purple', 'brown', 'red', 'blue']",['purple'],1,3,blue,purple,0.25,0
+box_hat_rot_s_5.jpg,"['purple', 'pink', 'blue', 'green']",['purple'],1,2,blue,purple,0.25,0
+holy_vase_rot_s_1.jpg,"['purple', 'yellow', 'green', 'red']",['purple'],1,0,purple,purple,0.25,1
